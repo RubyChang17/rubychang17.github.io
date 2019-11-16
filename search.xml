@@ -26,11 +26,97 @@
 <img src="https://drive.google.com/uc?view&id=1MnRKDkxP-DJ5IYeBAfooFlm9wVcaBlb5" title="[6 間台中喜餅店的位置 [6 間台中喜餅店的位置]]">
 
 <h2 id="親身試吃心得分享"><a href="#親身試吃心得分享" class="headerlink" title="親身試吃心得分享"></a>親身試吃心得分享</h2><p>想要寫一個可以一目了然的紀錄，嘗試用卡片的方式呈現，將優點跟缺點簡短的列出來，希望能讓想參考的人快速有個參考的方向。</p>
-<h2 id="最終抉擇"><a href="#最終抉擇" class="headerlink" title="最終抉擇"></a>最終抉擇</h2><p>哈哈哈，依照上面的佔比，應該很明顯可以看得出來我的最終選擇是誰。沒錯，就是 <code>黑色棒棒糖</code> ！</p>
+<div class="columns">
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="https://drive.google.com/uc?view&id=1XND59hjVO8NVryzozT2PUDXpVUBtmDXa" alt="蒙恩聽障烘焙坊 ">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+
+<pre><code>                    &lt;div class=&quot;media-content&quot;&gt;
+                        &lt;p class=&quot;title is-4&quot;&gt;蒙恩聽障烘焙坊 &lt;/p&gt;
+                        &lt;p class=&quot;subtitle is-6&quot;&gt;&lt;a href=&quot;http://www.deaf.com.tw/&quot;&gt;
+                                &lt;span class=&quot;icon&quot;&gt;
+                                    &lt;i class=&quot;fas fa-home&quot;&gt;&lt;/i&gt;
+                                &lt;/span&gt;
+                            &lt;/a&gt;(04) 2233-2525 &lt;a&gt;試吃免費&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;content&quot;&gt;💖 餅乾好吃，價格實惠，同時還能做公益&lt;br&gt;🖤 外盒較為樸素、款式不多，且沒有我想要的餅乾組合
+                    &lt;br&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+        &lt;div class=&quot;card&quot;&gt;
+            &lt;div class=&quot;card-image&quot;&gt;
+                &lt;figure class=&quot;image is-4by3&quot;&gt;
+                    &lt;img src=&quot;https://drive.google.com/uc?view&amp;id=16qZ3kUwoeuzYfWUFk05Q_i-buiC3-ADQ&quot; alt=&quot;chochoco 巧克力專賣&quot;&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;card-content&quot;&gt;
+                &lt;div class=&quot;media&quot;&gt;
+
+                    &lt;div class=&quot;media-content&quot;&gt;
+                        &lt;p class=&quot;title is-4&quot;&gt;chochoco 巧克力專賣&lt;/p&gt;
+                        &lt;p class=&quot;subtitle is-6&quot;&gt;
+                            &lt;a href=&quot;http://www.chochoco.com/&quot;&gt;
+                                &lt;span class=&quot;icon&quot;&gt;
+                                    &lt;i class=&quot;fas fa-home&quot;&gt;&lt;/i&gt;
+                                &lt;/span&gt;
+                            &lt;/a&gt;
+                            (04) 2313-8777 &lt;a&gt;試吃 $180&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;content&quot;&gt;💖 服務周到，禮盒設計精緻&lt;br&gt;🖤 價位較高，盒內餅乾組合排列方式看起來稍嫌單薄
+                    &lt;br&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;columns&quot;&gt;
+        &lt;div class=&quot;column&quot;&gt;
+            &lt;div class=&quot;card&quot;&gt;
+                &lt;div class=&quot;card-image&quot;&gt;
+                    &lt;figure class=&quot;image is-4by3&quot;&gt;
+                        &lt;img src=&quot;https://drive.google.com/uc?view&amp;id=1x7_0kayHPbMNxOjE1SB7wIPoVDqiPMDz&quot; alt=&quot;黑色棒棒糖&quot;&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-content&quot;&gt;
+                    &lt;div class=&quot;media&quot;&gt;
+
+                        &lt;div class=&quot;media-content&quot;&gt;
+                            &lt;p class=&quot;title is-4&quot;&gt;黑色棒棒糖 &lt;/p&gt;
+                            &lt;p class=&quot;subtitle is-6&quot;&gt;&lt;a href=&quot;https://www.facebook.com/%E9%BB%91%E8%89%B2%E6%A3%92%E6%A3%92%E7%B3%96-%E8%A3%BD%E9%80%A0%E5%B9%B8%E7%A6%8F%E7%94%9C%E9%BB%9E%E7%9A%84%E9%AD%94%E6%B3%95%E5%B7%A5%E5%BB%A0-213534241137/&quot;&gt;
+                                    &lt;span class=&quot;icon&quot;&gt;
+                                        &lt;i class=&quot;fas fa-home&quot;&gt;&lt;/i&gt;
+                                    &lt;/span&gt;
+                                &lt;/a&gt;0923-130-799 &lt;a&gt;試吃免費&lt;/a&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;content&quot;&gt;💖 餅乾超好吃，禮盒設計很可愛，試吃免費且給的很大方，服務很親切&lt;br&gt;🖤 餅乾給的太豐富了，我跟三位家人一起吃，大家都吃得太飽太開心
+                        &lt;br&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</code></pre><h2 id="最終抉擇"><a href="#最終抉擇" class="headerlink" title="最終抉擇"></a>最終抉擇</h2><p>哈哈哈，依照上面的佔比，應該很明顯可以看得出來我的最終選擇是誰。沒錯，就是 <code>黑色棒棒糖</code> ！</p>
 <p>除了餅乾本身就好吃以外，試吃的整個服務流程還有包裝設計都完全打中我的心，實在沒有一個我想挑剔的地方，價格也很合理。黑色棒棒糖是我們試吃的最後一間，在這間，我跟母母大概從吃完第一塊餅乾的時候，就同時出現 <code>就是它了！</code> 的共識。</p>
 <p>這週末準備要下單了，希望接下來的整個服務也跟我們一直以來感受到的一樣舒服，好期待親朋好友收到喜餅時的模樣。</p>
 <p>PS. 這篇完全不是業配，寫得乍看很偏頗，但完全是真心分享，去試吃體驗一下，應該會明白我說的 😉</p>
-]]></content>
+</div></div></div></div></div>]]></content>
       <categories>
         <category>生活小事</category>
       </categories>
