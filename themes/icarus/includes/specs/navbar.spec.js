@@ -11,7 +11,7 @@ module.exports = {
             時間軸: '/archives',
             分類: '/categories',
             標籤: '/tags',
-            關於鹿鹿: '/about'
+            關於鹿: '/about'
         },
         '*': {
             [type]: 'string',
