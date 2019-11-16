@@ -1,94 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Line 換手機備份從 iOS 轉 Android 教學</title>
-    <url>/line-backup-from-ios-to-android.html</url>
-    <content><![CDATA[<p>希望前四大段可以幫助你快速的判斷這篇教學文，與你的狀況是不是符合。如果有任何疑問，歡迎隨時留言發問喔，我會盡所能幫你解答 🌞</p>
-<h2 id="本文實測設備"><a href="#本文實測設備" class="headerlink" title="本文實測設備"></a>本文實測設備</h2><p><code>iPhone 8 plus</code> ios 系統 Line 備份轉移至 <code>Samsung s10e</code> Android 系統 8.0 以上</p>
-<h2 id="目前-Line-轉移備份的可行作法"><a href="#目前-Line-轉移備份的可行作法" class="headerlink" title="目前 Line 轉移備份的可行作法"></a>目前 Line 轉移備份的可行作法</h2><ul>
-<li>ios ➯ ios : Line 內建，路徑是 <code>設定 &gt; 聊天 &gt; 備份聊天記錄 &gt; 馬上進行備份</code></li>
-<li>Android ➯ Android : Line 內建，路徑是 <code>設定 &gt; 聊天 &gt; 備份及復原聊天記錄 &gt; Google 帳號 &gt; 備份至 Google 雲端硬碟</code> </li>
-<li>ios ⇌ Android : 需購買電腦軟體 <code>Backuptrans Android iPhone Line Transfer +</code><br>台幣:heavy_dollar_sign:723 (這是 2019/09 購入 Personal Edition 方案含國外手續費的價格) </li>
+    <title>[婚禮大小事] 台中手工喜餅試吃推薦</title>
+    <url>/taichung-taiwanese-bride-cake-recommend-2019.html</url>
+    <content><![CDATA[<h1 id="婚禮大小事-台中手工喜餅試吃推薦-😋"><a href="#婚禮大小事-台中手工喜餅試吃推薦-😋" class="headerlink" title="[婚禮大小事] 台中手工喜餅試吃推薦 😋"></a>[婚禮大小事] 台中手工喜餅試吃推薦 😋</h1><p>年初拍完輕婚紗照，當時還沒決定要結婚，只是因緣際會下先拍看看、拍個好玩。但 B 羅跟我拍完覺得好像就這樣順勢趕快結婚也可以，如此這般，很迅速地決定要盡快辦完婚禮（哈哈哈沒錯就是那麼務實及隨性）。</p>
+<p>不過因為算命老師說年底都沒適合我們倆的日子了，所以最接近的好日子只有明年一月，老師說了算，我們也就這樣沒有異議地拍板定案。</p>
+<h2 id="怎麼挑要試吃哪間？"><a href="#怎麼挑要試吃哪間？" class="headerlink" title="怎麼挑要試吃哪間？"></a>怎麼挑要試吃哪間？</h2><p>我家在台中，平日在台北上班，週末偶爾也要跟 B 羅一起回新竹張羅婚事，從決定要結婚後，行程一直很滿。還好好姊妹們都差不多時間要結婚，很多前輩可以問，陸續推薦很多 FB 粉絲團給我，超感謝！</p>
+<p>我直接在 FB 婚禮相關的粉絲團中搜尋關鍵字，鎖定台中的餅店，想要手工餅乾，搜尋手工餅乾/喜餅/台中/推薦，依照大家推文的店家再去 google 搜尋做篩選。</p>
+<p>最後選定了下面 6 間_<a id="more"></a></p>
+<blockquote><ul>
+<li>chochoco 巧克力專賣</li>
+<li>瑪利 MAMA 手作麵包</li>
+<li>拾個月 蛋糕餅乾禮物專門店</li>
+<li>蒙恩聽障烘焙坊</li>
+<li>BabyFace 手工烘培</li>
+<li>黑色棒棒糖</li>
 </ul>
-<h2 id="ios-⇌-Android-轉移前須知重點"><a href="#ios-⇌-Android-轉移前須知重點" class="headerlink" title="ios ⇌ Android 轉移前須知重點"></a>ios ⇌ Android 轉移前須知重點<a id="more"></a></h2><ul>
-<li>該軟體 Personal Edition 方案序號只能用在一台電腦上，不能轉移到別台電腦進行作業</li>
-<li>轉移至 Android 8.0 以上手機，必須 <code>手動點開一位一位朋友的聊天視窗</code> ，個別恢復已備份的聊天內容!!! 若不想這麼麻煩，要先轉移到 Android 8.0 以下的手機，再用安卓間互轉的方式轉移。</li>
-<li>多人聊天紀錄無法還原 (群組可以)</li>
-<li>照片沒過期的話會一起轉移</li>
-<li>語音訊息無法轉移</li>
-</ul>
-<h2 id="轉移流程"><a href="#轉移流程" class="headerlink" title="轉移流程"></a>轉移流程</h2><p>看完前述的重點依然要繼續往下的話，讓我們來看看轉移的整個流程步驟是怎麼樣～甭緊張，雖然乍看很複雜，但冤枉路我都走完了，仔細的慢慢操作，應該不困難！</p>
-<ol>
-<li>購買、安裝 Backuptrans 軟體</li>
-<li>連接 iPhone 進行備份</li>
-<li>登入新手機的 Line, 同時舊手機的 Line 被登出清空</li>
-<li>移動備份檔至 Android 手機資料夾</li>
-<li>手動依照想恢復的朋友對話，一個一個設定讀取</li>
-<li>備份轉移成功 :heart_eyes_cat: :blue_heart: </li>
-</ol>
-<h3 id="1-購買、安裝-Backuptrans-軟體"><a href="#1-購買、安裝-Backuptrans-軟體" class="headerlink" title="1. 購買、安裝 Backuptrans 軟體"></a>1. 購買、安裝 Backuptrans 軟體</h3><p>最便宜的版本是 Personal Edition 可轉三次方案，價錢與方案就差在轉移次數，沒有其他需求的話可直接購買這個版本。Mac 版比 Windows 版貴一些些。</p>
-<ul>
-<li><a href="https://www.backuptrans.com/android-iphone-line-transfer-plus.html" rel="noopener" target="_blank">windows 版本</a> USD $34.95</li>
-<li><a href="https://www.backuptrans.com/android-iphone-line-transfer-plus-for-mac.html" rel="noopener" target="_blank">mac 版本</a> USD $29.95</li>
-</ul>
-<figure>
-  <img src="https://drive.google.com/uc?view&id=1zvCtBLh0NcQZhOSdGNP_y4mBZ5zQuRnr" alt="Backuptrans 所提供的購買方案">
-  <cite>Photo: <a target="_blank" href="https://www.vaginamuseum.co.uk/" rel="external nofollow noreferrer">鹿鹿生活日誌</a></cite>
-</figure>
+</blockquote>
 
-<h3 id="2-連接-iPhone-進行備份"><a href="#2-連接-iPhone-進行備份" class="headerlink" title="2. 連接 iPhone 進行備份"></a>2. 連接 iPhone 進行備份</h3><p>這個步驟比較簡單</p>
-<ol>
-<li>手機畫面維持在桌面</li>
-<li>確認手機的line正確登入</li>
-<li>接下來就開始等待進行備份囉，電腦畫面會出現 <code>Loading data from Device...</code><br>這部分雖然簡單，但我一開始卡超久的，因為進度條很久都沒往前，一直停在 0% . 前幾次嘗試都以為是我設定有問題，沒連接上。後來才發現，只是跑很慢而已，耐心地等就沒問題了！</li>
-<li>備份完成時，就能在該軟體上看到所有的對話紀錄</li>
-</ol>
-<h3 id="3-登入新手機的-Line-同時舊手機的-Line-被登出清空"><a href="#3-登入新手機的-Line-同時舊手機的-Line-被登出清空" class="headerlink" title="3. 登入新手機的 Line, 同時舊手機的 Line 被登出清空"></a>3. 登入新手機的 Line, 同時舊手機的 Line 被登出清空</h3><ol>
-<li>舊手機 Line 開啟移動帳號功能</li>
-<li>在新手機完成登入。</li>
-</ol>
-<p>這時候看到空白一片的聊天記錄會感覺怕怕的哈哈哈，我懂，不要怕！繼續往下，快完成了。</p>
-<h3 id="4-將備份好的紀錄搬到-Android-的資料夾中"><a href="#4-將備份好的紀錄搬到-Android-的資料夾中" class="headerlink" title="4. 將備份好的紀錄搬到 Android 的資料夾中"></a>4. 將備份好的紀錄搬到 Android 的資料夾中</h3><ol>
-<li><p>先開啟 Android USB 偵錯模式<br>因我是用 Samsung 手機，開啟的路徑會是 <code>設定 &gt; 關於裝置  &gt; 軟體資訊 &gt; 版本號碼，連續點擊 7 次，直到出現「開發者模式已啟用」</code><br>不同廠牌的設定方式應該小有不同，可以 google 『廠牌 + USB 偵錯模式』找到設定方式。</p>
-</li>
-<li><p>把備份好的 iPhone 紀錄搬移到 Android 的資料夾</p>
- <figure>
-   <img src="https://lh3.google.com/u/0/d/1Sb9unr_9WWcIf0L4By033wXwfjnnzqZT=w1440-h713-iv1" alt="在 local 備份上點右鍵，選擇 Export to Line backup file">
-   <cite>Photo: <a target="_blank" href="https://www.backuptrans.com/tutorial/transfer-line-chats-manually-for-android.html" rel="external nofollow noreferrer">backuptrans</a></cite>
- </figure>
+<h2 id="行程規劃"><a href="#行程規劃" class="headerlink" title="行程規劃"></a>行程規劃</h2><p>因為每週都有很多事情要處理跟籌劃，我就天(愚)真(蠢)的想說可以在一個週末把 6 間都搞定，所以就開心地排出下面行程…</p>
+<img src="https://drive.google.com/uc?view&id=1hQq_C7geE0WvWW6HMgwpBDt78P46voDH" title="[台中喜餅試吃行程圖 [台中喜餅試吃行程圖]]">
 
-<p> 2.1 如下面官網示意圖，在 local 備份上點右鍵，選擇 <code>Export to Line backup file</code></p>
-<p> 2.2 出現視窗請你選擇你新手機上面的正確 Line 帳號 (如果電腦 local 中只有一個剛剛操作的備份檔，那正常只會有那一個選項)，選完點 OK，會跳出存檔視窗，存在哪邊都可以，但千萬 <code>不要更改檔名</code> !!! 匯出完成後，即可關掉軟體。</p>
-</li>
-<li><p>把匯出的檔案打開，將裡面的 <code>LINE_Backup</code> 複製到 Android 的資料夾中<br>如果裡面已存在同檔名的 LINE_Backup，務必要把原有的資料夾改名或移除，否則會失敗。</p>
-</li>
-</ol>
-<figure>
-      <img src="https://lh3.google.com/u/0/d/1dmki2Xl7mO6t_PUwGoB5HNBmfuturXRs=w885-h713-iv1" alt="將裡面的LINE_Backup複製到 Android 的資料夾中">
-      <cite>Photo: <a target="_blank" href="https://www.backuptrans.com/tutorial/transfer-line-chats-manually-for-android.html" rel="external nofollow noreferrer">backuptrans</a></cite>
-</figure>
+<p>經過我的實際測試，一天吃 <code>兩間是極限</code> 哈哈哈哈哈，千萬不要跟我一樣天真。第二間吃到一半就開始會覺得很撐，也會覺得膩。</p>
+<p>因為最後實在吃不下，所以距離比較遠的 <code>拾個月</code> 、排在最後一間的 <code>BabyFace手工烘培</code> 以及因為是連假而休假的 <code>瑪利 MAMA 手作麵包</code> 就果斷捨棄，沒有前去試吃。</p>
+<img src="https://drive.google.com/uc?view&id=1MnRKDkxP-DJ5IYeBAfooFlm9wVcaBlb5" title="[6 間台中喜餅店的位置 [6 間台中喜餅店的位置]]">
 
-<h3 id="5-手動依照想恢復的朋友對話，一個一個設定讀取"><a href="#5-手動依照想恢復的朋友對話，一個一個設定讀取" class="headerlink" title="5. 手動依照想恢復的朋友對話，一個一個設定讀取"></a>5. 手動依照想恢復的朋友對話，一個一個設定讀取</h3><p>真正的苦工開始了，點選想匯入備份紀錄的朋友， <code>右上方的Ｖ符號 &gt; 聊天設定 &gt; 匯入聊天記錄</code> 慢慢的一個個匯入完，就大功告成囉 :+1: (即使聊天視窗內已經在新手機有一些對話內容，經測試，還是可以順利匯入聊天記錄喔)</p>
-<figure>
-      <img src="https://lh3.google.com/u/0/d/1LlTOFswkChy6mi24C78Ewsr48HbO1Toq=w885-h713-iv2" alt="匯入聊天記錄">
-      <cite>Photo: <a target="_blank" href="https://butimalone12.pixnet.net/blog/post/460056525" rel="external nofollow noreferrer">失物招領</a></cite>
-</figure>
+<h2 id="親身試吃心得分享"><a href="#親身試吃心得分享" class="headerlink" title="親身試吃心得分享"></a>親身試吃心得分享</h2><p>想要寫一個可以一目了然的紀錄，嘗試用卡片的方式呈現，將優點跟缺點簡短的列出來，希望能讓想參考的人快速有個參考的方向。</p>
+<div class="columns">
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="https://drive.google.com/uc?view&id=1XND59hjVO8NVryzozT2PUDXpVUBtmDXa" alt="蒙恩聽障烘焙坊 ">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
 
-<hr>
-<h4 id="參考網址"><a href="#參考網址" class="headerlink" title="參考網址"></a>參考網址</h4><ul>
-<li><a href="https://butimalone12.pixnet.net/blog/post/460056525" rel="noopener" target="_blank">https://butimalone12.pixnet.net/blog/post/460056525</a></li>
-<li><a href="https://steachs.com/archives/48853" rel="noopener" target="_blank">https://steachs.com/archives/48853</a></li>
-<li><a href="https://steachs.com/archives/29432" rel="noopener" target="_blank">https://steachs.com/archives/29432</a></li>
-</ul>
-]]></content>
+<pre><code>                    &lt;div class=&quot;media-content&quot;&gt;
+                        &lt;p class=&quot;title is-4&quot;&gt;蒙恩聽障烘焙坊 &lt;/p&gt;
+                        &lt;p class=&quot;subtitle is-6&quot;&gt;&lt;a href=&quot;http://www.deaf.com.tw/&quot;&gt;
+                                &lt;span class=&quot;icon&quot;&gt;
+                                    &lt;i class=&quot;fas fa-home&quot;&gt;&lt;/i&gt;
+                                &lt;/span&gt;
+                            &lt;/a&gt;(04) 2233-2525 &lt;a&gt;試吃免費&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;content&quot;&gt;💖 餅乾好吃，價格實惠，同時還能做公益&lt;br&gt;🖤 外盒較為樸素、款式不多，且沒有我想要的餅乾組合
+                    &lt;br&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+        &lt;div class=&quot;card&quot;&gt;
+            &lt;div class=&quot;card-image&quot;&gt;
+                &lt;figure class=&quot;image is-4by3&quot;&gt;
+                    &lt;img src=&quot;https://drive.google.com/uc?view&amp;id=16qZ3kUwoeuzYfWUFk05Q_i-buiC3-ADQ&quot; alt=&quot;chochoco 巧克力專賣&quot;&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;card-content&quot;&gt;
+                &lt;div class=&quot;media&quot;&gt;
+
+                    &lt;div class=&quot;media-content&quot;&gt;
+                        &lt;p class=&quot;title is-4&quot;&gt;chochoco 巧克力專賣&lt;/p&gt;
+                        &lt;p class=&quot;subtitle is-6&quot;&gt;
+                            &lt;a href=&quot;http://www.chochoco.com/&quot;&gt;
+                                &lt;span class=&quot;icon&quot;&gt;
+                                    &lt;i class=&quot;fas fa-home&quot;&gt;&lt;/i&gt;
+                                &lt;/span&gt;
+                            &lt;/a&gt;
+                            (04) 2313-8777 &lt;a&gt;試吃 $180&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;content&quot;&gt;💖 服務周到，禮盒設計精緻&lt;br&gt;🖤 價位較高，盒內餅乾組合排列方式看起來稍嫌單薄
+                    &lt;br&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;columns&quot;&gt;
+        &lt;div class=&quot;column&quot;&gt;
+            &lt;div class=&quot;card&quot;&gt;
+                &lt;div class=&quot;card-image&quot;&gt;
+                    &lt;figure class=&quot;image is-4by3&quot;&gt;
+                        &lt;img src=&quot;https://drive.google.com/uc?view&amp;id=1x7_0kayHPbMNxOjE1SB7wIPoVDqiPMDz&quot; alt=&quot;黑色棒棒糖&quot;&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-content&quot;&gt;
+                    &lt;div class=&quot;media&quot;&gt;
+
+                        &lt;div class=&quot;media-content&quot;&gt;
+                            &lt;p class=&quot;title is-4&quot;&gt;黑色棒棒糖 &lt;/p&gt;
+                            &lt;p class=&quot;subtitle is-6&quot;&gt;&lt;a href=&quot;https://www.facebook.com/%E9%BB%91%E8%89%B2%E6%A3%92%E6%A3%92%E7%B3%96-%E8%A3%BD%E9%80%A0%E5%B9%B8%E7%A6%8F%E7%94%9C%E9%BB%9E%E7%9A%84%E9%AD%94%E6%B3%95%E5%B7%A5%E5%BB%A0-213534241137/&quot;&gt;
+                                    &lt;span class=&quot;icon&quot;&gt;
+                                        &lt;i class=&quot;fas fa-home&quot;&gt;&lt;/i&gt;
+                                    &lt;/span&gt;
+                                &lt;/a&gt;0923-130-799 &lt;a&gt;試吃免費&lt;/a&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;content&quot;&gt;💖 餅乾超好吃，禮盒設計很可愛，試吃免費且給的很大方，服務很親切&lt;br&gt;🖤 餅乾給的太豐富了，我跟三位家人一起吃，大家都吃得太飽太開心
+                        &lt;br&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</code></pre><h2 id="最終抉擇"><a href="#最終抉擇" class="headerlink" title="最終抉擇"></a>最終抉擇</h2><p>哈哈哈，依照上面的佔比，應該很明顯可以看得出來我的最終選擇是誰。沒錯，就是 <code>黑色棒棒糖</code> ！</p>
+<p>除了餅乾本身就好吃以外，試吃的整個服務流程還有包裝設計都完全打中我的心，實在沒有一個我想挑剔的地方，價格也很合理。黑色棒棒糖是我們試吃的最後一間，在這間，我跟母母大概從吃完第一塊餅乾的時候，就同時出現 <code>就是它了！</code> 的共識。</p>
+<p>這週末準備要下單了，希望接下來的整個服務也跟我們一直以來感受到的一樣舒服，好期待親朋好友收到喜餅時的模樣。</p>
+<p>PS. 這篇完全不是業配，寫得乍看很偏頗，但完全是真心分享，去試吃體驗一下，應該會明白我說的 😉</p>
+</div></div></div></div></div>]]></content>
       <categories>
-        <category>科技宅少女</category>
+        <category>生活小事</category>
       </categories>
       <tags>
         <tag>懶人包</tag>
         <tag>購物心得</tag>
-        <tag>3C</tag>
-        <tag>教學</tag>
+        <tag>親身推薦</tag>
+        <tag>婚禮大小事</tag>
       </tags>
   </entry>
   <entry>
