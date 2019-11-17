@@ -141,22 +141,22 @@ widgets:
         # Path or URL for the follow button
         follow_link: 'https://github.com/ppoffice'
         # Links to be shown on the bottom of the profile widget
-        social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+        # social_links:
+        #     Github:
+        #         icon: fab fa-github
+        #         url: 'https://github.com/ppoffice'
+        #     Facebook:
+        #         icon: fab fa-facebook
+        #         url: 'https://facebook.com'
+        #     Twitter:
+        #         icon: fab fa-twitter
+        #         url: 'https://twitter.com'
+        #     Dribbble:
+        #         icon: fab fa-dribbble
+        #         url: 'https://dribbble.com'
+        #     RSS:
+        #         icon: fas fa-rss
+        #         url: /
     -
         # Widget name
         type: toc

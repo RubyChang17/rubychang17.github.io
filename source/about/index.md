@@ -7,6 +7,11 @@ tags:
   - 購物心得
   - 婚禮大小事
 keywords: 關於鹿鹿, 軟體專案經理, 產品經理, 斷捨離, 新創, 環保
+description: 本站的開站小閒談紀錄
+categories:
+- 生活小事
+thumbnail: https://live.staticflickr.com/711/31900633953_e481c0331a_k.jpg
+urlname: about
 ---
 
 # 關於鹿
