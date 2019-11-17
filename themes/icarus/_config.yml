@@ -31,10 +31,10 @@ navbar:
         標籤: /tags
         關於鹿: /about
     # Navigation bar links to be shown on the right
-    links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+    # links:
+    #     Download on GitHub:
+    #         icon: fab fa-github
+    #         url: 'https://github.com/ppoffice/hexo-theme-icarus'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
@@ -162,15 +162,15 @@ widgets:
         type: toc
         # Where should the widget be placed, left or right
         position: left
-    -
-        # Widget name
-        type: links
-        # Where should the widget be placed, left or right
-        position: left
-        # Links to be shown in the links widget
-        links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+    # -
+    #     # Widget name
+    #     type: links
+    #     # Where should the widget be placed, left or right
+    #     position: left
+    #     # Links to be shown in the links widget
+    #     links:
+    #         Hexo: 'https://hexo.io'
+    #         PPOffice: 'https://github.com/ppoffice'
     -
         # Widget name
         type: category
