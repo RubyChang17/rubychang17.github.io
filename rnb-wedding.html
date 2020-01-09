@@ -5,57 +5,404 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Landing - Free Bulma template</title>
+    <title>💒 Ruby & Bruce Wedding!</title>
+    <meta name="description" content="菀儒跟仕宏的婚禮登機證來啦～快點打來看看，別錯過登機時間，起飛不等人喲！">
     <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <!-- Bulma Version 0.8.x-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="../css/landing.css">
-  
   <style>
-    body{
-      background-color: white;
+// ----- Personal preference -----
+*, *:before, *:after {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+// ----- Variable Declarations -----
+$bg-blue: #28334A;
+
+// ----- Styles -----
+html, body {
+  background: $bg-blue;
+  min-height: 100vh;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+.feedback {
+  position: absolute;
+  opacity: 0;
+}
+.table {
+  display: table;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+#ticket {
+  width: 350px;
+  background: #fff;
+  height: 650px;
+  margin: 0 auto;
+  &:after {
+    content: '';
+    display: block;
+    position: relative;
+    clear: both;
+  }
+}
+#ticket>.row:first-child {
+  &:before, &:after {
+    background-color: $bg-blue;
+    position: absolute;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    bottom: 0;
+    margin-bottom: -10px;
+  }
+  &:before {
+    left: 0;
+    margin-left: -10px;
+  }
+  &:after {
+    right: 0;
+    margin-right: -10px;
+  }
+}
+.logo{
+  width: 160px;
+}
+.row {
+  position: relative;
+  padding: 20px;
+  &.perforated {
+    border-bottom: 1px dashed #ddd;
+  }
+  &.destinations:after, &.normRow:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+}
+.label {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+    line-height: 1.2!important;
+}
+.airport {
+  font-size: 32px;
+}
+.city {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.right {
+  float: right;
+  text-align: right;
+}
+.left {
+  float: left;
+  text-align: left;
+}
+svg#plane {
+  width: 30px;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: 15px;
+  opacity: 0.5;
+  display: inline-block;
+}
+.smalltext{
+  padding: 20px;
+  font-size: 10px;
+  opacity: 0.6;
+}
+.col6 {
+  float: left;
+  width: 50%;
+  font-size: 21px;
+  line-height: 1.5;
+}
+.col {
+  font-size: 21px;
+}
+.normRow {
+  padding-bottom: 0;
+}
+#qr {
+  float: right;
+  width: 80px;
+  position: relative;
+  right: -5px;
+  bottom: 5px;
+  margin-left: 10px;
+}
+.sparkler {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+  .square {
+    width: 12.5%;
+    height: 12.5%;
+    background-color: grey;
+    float: left;
+    transition: background-color 0.1s;
+  }
+}
+// ----- Mobile styles -----
+@media only screen 
+  and (max-device-width: 736px) { 
+}
+
+/* Button */
+    .button {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 2px;
+      font-size: 0.9em;
+      background-color: #fff;
+      color: #646464;
+      
     }
+    
+    .button > paper-ripple {
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    
+    .button.narrow {
+      width: 60px;
+    }
+    
+    .button.grey {
+      background-color: #eee;
+    }
+    
+    .button.blue {
+      background-color: #00AAAA;
+      color: #fff;
+    }
+    
+    .button.green {
+      background-color: #0f9d58;
+      color: #fff;
+    }
+    
+    .button.raised {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+    .button.raised:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+    
+    /* Icon Button */
+    .icon-button {
+      position: relative;
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+    }
+    
+    .icon-button > core-icon {
+      margin: 16px;
+      transition: -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .icon-button:hover > core-icon {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+    
+    .icon-button > paper-ripple {
+      overflow: hidden;
+      color: #646464;
+    }
+    
+    .icon-button.red > core-icon::shadow path {
+      fill: #db4437;
+    }
+    
+    .icon-button.red > paper-ripple {
+      color: #db4437;
+    }
+    
+    .icon-button.blue > core-icon::shadow path {
+      fill: #4285f4;
+    }
+    
+    .icon-button.blue > paper-ripple {
+      color: #4285f4;
+    }
+    
+    /* FAB */
+    .fab {
+      position: relative;
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      color: #fff;
+      overflow: hidden;
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+    .fab.red {
+      background-color: #d23f31;
+    }
+    
+    .fab.blue {
+      background-color: #4285f4;
+    }
+    
+    .fab.green {
+      background-color: #0f9d58;
+    }
+    
+    .fab:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+    
+    .fab > core-icon {
+      margin: 16px;
+    }
+    
+    .fab > core-icon::shadow path {
+      fill: #fff;
+    }
+    
+    /* Menu */
+    .menu {
+      display: inline-block;
+      width: 180px;
+      background-color: #fff;
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .item {
+      position: relative;
+      height: 48px;
+      line-height: 48px;
+      color: #646464;
+      font-size: 0.9em;
+    }
+    
+    .menu.blue > .item {
+      color: #4285f4;
+    }
+   
+    
+ 
   </style>
 </head>
 
 <body>
-    <section class="hero is-fullheight">
-        <div class="hero-head">
+    <div class="feedback" id="oldX"></div>
+    <div class="feedback" id="oldY"></div>
+    <div class="table">
+      <div class="table-cell">
+        <div id="ticket">
+          <div class="row perforated first">
+            <img class="logo" src="https://i.imgur.com/HYO5iHK.png" />
+            <div class="right">
+              <div class="label">Flight Number</div>
+              <div class="num">晶宴御豐館</div>
             </div>
-
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <div class="column is-6 is-offset-3">
-                        <img src="https://i.imgur.com/oDVgAJ1.png" alt="">
-                        <h1 class="title">
-                            我們的婚宴日就要到囉！<br>
-                        </h1>
-                        <h2 class="subtitle" style="padding-top:30px;">
-                          時間：<span>2020/01/18(六) 中午 12:00</span></h2>
-                        <h2 class="subtitle">
-                          地點：晶宴會館 - 御豐館 [綺麗劇場]<br>
-                          台灣新竹市東區公道五路三段1號2樓
-                        </h2>
-                        <div class="box">
-                            <div class="field is-grouped">
-                                <p class="control is-expanded is-info">
-                                    立即加入行事曆，準時出席不忘記 🔜
-                                </p>
-                                <p class="control">
-                                    <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NmVlOTBzMWhqY2p1aWpzcWRza2wxdmc5c3AgaGFoYWJiaXRAbQ&tmsrc=hahabbit%40gmail.com" class="button is-primary">
-                                        點我！
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="row perforated destinations">
+            <div class="left">
+              <div class="label">Departing</div>
+              <div class="airport">張府</div>
+              <div class="city">Taichung, Taiping </div>
             </div>
-
-    </section>
-    <script async type="text/javascript" src="../js/bulma.js"></script>
+    
+            <svg id="plane" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve">
+              <g>
+                <path d="M12.5,50L6.25,31.25h6.25L25,43.75h25L31.25,6.25h6.25l31.25,37.5h12.5c0,0,12.5,0,12.5,6.25s-12.5,6.25-12.5,6.25h-12.5   L37.5,93.75h-6.25L50,56.25H25l-12.5,12.5H6.25L12.5,50z" />
+              </g>
+            </svg>
+    
+            <div class="right">
+              <div class="label">Arriving</div>
+              <div class="airport">羅府</div>
+              <div class="city">Hsinchu, Zhudong</div>
+            </div>
+          </div>
+          <div class="row normRow">
+            <div>
+              <div class="label">Passenger</div>
+              <div class="col">My Dearest Love 💕</div>
+            </div>
+    
+          </div>
+          <div class="row normRow">
+            <div class="col6">
+              <div class="label">Departs in</div>
+              <div class="countdown">2020/01/18(六)</div>
+            </div>
+            <div class="col6">
+              <div class="label">Gate</div>
+              <div>綺麗劇場</div>
+            </div>
+          </div>
+          <div class="row normRow">
+            <div>
+              <div class="col6">
+                <div class="label">Departs at</div>
+                <div>12:00pm</div>
+              </div>
+              <div class="col6">
+                <div class="label">Arrives at</div>
+                <div>14:30pm</div>
+              </div>
+            </div>
+          </div>
+          <div class="row perforated">
+            <div>
+              <div class="label" style="padding-bottom:2%">Add to Calender</div>
+              <div class="col">
+                <div class="button raised blue">
+          <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200118T040000Z%2F20200118T063000Z&text=%F0%9F%92%92Ruby%26Bruce%20Wedding%20%EF%BC%A0%E6%99%B6%E5%AE%B4%E5%BE%A1%E8%B1%90%E9%A4%A8-%E7%B6%BA%E9%BA%97%E5%8A%87%E5%A0%B4&location=%E5%8F%B0%E7%81%A3%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E5%85%AC%E9%81%93%E4%BA%94%E8%B7%AF%E4%B8%89%E6%AE%B51%E8%99%9F2%E6%A8%93&details=%E8%A8%98%E5%BE%97%E6%BA%96%E6%99%82%E5%87%BA%E5%B8%AD%E5%96%94%EF%BD%9E%EF%BD%9E%EF%BD%9E" style="text-decoration:none; color:white;"><div class="center" style="text-align: center; font-size: 10pt;">
+            立即加到行事曆
+            </div></a>
+          <paper-ripple fit></paper-ripple>
+        </div>
+              </div>
+            </div>
+          </div>
+          <div class="row normRow">
+            <div>
+              <div class="label" style="padding-bottom:2%; color:#00AAAA;">注意事項 1</div>
+              <div class="col" style="font-size:12px;">當日男方不收禮無禮桌。我這邊隨喜，我最愛的你們能抽出時間來參加已經很感動。若真的有準備紅包，請找到<b> 我家小老弟 </b>，由他收禮，謝謝！</div>
+            </div>
+    
+          </div>
+                <div class="row normRow">
+            <div>
+              <div class="label" style="padding-bottom:2%; color:#00AAAA;">注意事項 2</div>
+              <div class="col" style="font-size:12px;">因桌數很少，若要額外攜帶非原訂人數，煩請務必跟我確認，很怕當天爆桌，因為我有如野馬的公公，感謝。</div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>
