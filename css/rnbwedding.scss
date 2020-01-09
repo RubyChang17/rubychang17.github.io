@@ -1,0 +1,296 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+
+html, body {
+  background: #28334A;
+  min-height: 100vh;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+.feedback {
+  position: absolute;
+  opacity: 0;
+}
+.table {
+  display: table;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+#ticket {
+  width: 350px;
+  background: #fff;
+  height: 650px;
+  margin: 0 auto;
+  &:after {
+    content: '';
+    display: block;
+    position: relative;
+    clear: both;
+  }
+}
+#ticket>.row:first-child {
+  &:before, &:after {
+    background-color: #28334A;
+    position: absolute;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    bottom: 0;
+    margin-bottom: -10px;
+  }
+  &:before {
+    left: 0;
+    margin-left: -10px;
+  }
+  &:after {
+    right: 0;
+    margin-right: -10px;
+  }
+}
+.logo{
+  width: 160px;
+}
+.row {
+  position: relative;
+  padding: 20px;
+  &.perforated {
+    border-bottom: 1px dashed #ddd;
+  }
+  &.destinations:after, &.normRow:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+}
+.label {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+    line-height: 1.2!important;
+}
+.airport {
+  font-size: 32px;
+}
+.city {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.right {
+  float: right;
+  text-align: right;
+}
+.left {
+  float: left;
+  text-align: left;
+}
+svg#plane {
+  width: 30px;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: 15px;
+  opacity: 0.5;
+  display: inline-block;
+}
+.smalltext{
+  padding: 20px;
+  font-size: 10px;
+  opacity: 0.6;
+}
+.col6 {
+  float: left;
+  width: 50%;
+  font-size: 21px;
+  line-height: 1.5;
+}
+.col {
+  font-size: 21px;
+}
+.normRow {
+  padding-bottom: 0;
+}
+#qr {
+  float: right;
+  width: 80px;
+  position: relative;
+  right: -5px;
+  bottom: 5px;
+  margin-left: 10px;
+}
+.sparkler {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+  .square {
+    width: 12.5%;
+    height: 12.5%;
+    background-color: grey;
+    float: left;
+    transition: background-color 0.1s;
+  }
+}
+
+@media only screen 
+  and (max-device-width: 736px) { 
+}
+
+/* Button */
+    .button {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 2px;
+      font-size: 0.9em;
+      background-color: #fff;
+      color: #646464;
+      
+    }
+    
+    .button > paper-ripple {
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    
+    .button.narrow {
+      width: 60px;
+    }
+    
+    .button.grey {
+      background-color: #eee;
+    }
+    
+    .button.blue {
+      background-color: #00AAAA;
+      color: #fff;
+    }
+    
+    .button.green {
+      background-color: #0f9d58;
+      color: #fff;
+    }
+    
+    .button.raised {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+    .button.raised:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+    
+    /* Icon Button */
+    .icon-button {
+      position: relative;
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+    }
+    
+    .icon-button > core-icon {
+      margin: 16px;
+      transition: -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .icon-button:hover > core-icon {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+    
+    .icon-button > paper-ripple {
+      overflow: hidden;
+      color: #646464;
+    }
+    
+    .icon-button.red > core-icon::shadow path {
+      fill: #db4437;
+    }
+    
+    .icon-button.red > paper-ripple {
+      color: #db4437;
+    }
+    
+    .icon-button.blue > core-icon::shadow path {
+      fill: #4285f4;
+    }
+    
+    .icon-button.blue > paper-ripple {
+      color: #4285f4;
+    }
+    
+    /* FAB */
+    .fab {
+      position: relative;
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      color: #fff;
+      overflow: hidden;
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+    .fab.red {
+      background-color: #d23f31;
+    }
+    
+    .fab.blue {
+      background-color: #4285f4;
+    }
+    
+    .fab.green {
+      background-color: #0f9d58;
+    }
+    
+    .fab:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+    
+    .fab > core-icon {
+      margin: 16px;
+    }
+    
+    .fab > core-icon::shadow path {
+      fill: #fff;
+    }
+    
+    /* Menu */
+    .menu {
+      display: inline-block;
+      width: 180px;
+      background-color: #fff;
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .item {
+      position: relative;
+      height: 48px;
+      line-height: 48px;
+      color: #646464;
+      font-size: 0.9em;
+    }
+    
+    .menu.blue > .item {
+      color: #4285f4;
+    }
+   
+    
+ 
