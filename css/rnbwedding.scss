@@ -1,12 +1,15 @@
-
+// ----- Personal preference -----
 *, *:before, *:after {
   box-sizing: border-box;
   user-select: none;
 }
 
+// ----- Variable Declarations -----
+$bg-blue: #28334A;
 
+// ----- Styles -----
 html, body {
-  background: #28334A;
+  background: $bg-blue;
   min-height: 100vh;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
 }
@@ -38,7 +41,7 @@ html, body {
 }
 #ticket>.row:first-child {
   &:before, &:after {
-    background-color: #28334A;
+    background-color: $bg-blue;
     position: absolute;
     content: '';
     display: block;
@@ -140,7 +143,7 @@ svg#plane {
     transition: background-color 0.1s;
   }
 }
-
+// ----- Mobile styles -----
 @media only screen 
   and (max-device-width: 736px) { 
 }
