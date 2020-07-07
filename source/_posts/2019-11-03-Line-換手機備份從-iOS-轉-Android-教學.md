@@ -24,7 +24,7 @@ thumbnail: https://lh3.google.com/u/2/d/18UUS_pPogcy_UDicRf8CvYhsS8JRL0am=w1920-
 - ios ➯ ios : Line 內建，路徑是 `設定 > 聊天 > 備份聊天記錄 > 馬上進行備份`
 - Android ➯ Android : Line 內建，路徑是 `設定 > 聊天 > 備份及復原聊天記錄 > Google 帳號 > 備份至 Google 雲端硬碟` 
 - ios ⇌ Android : 需購買電腦軟體 `Backuptrans Android iPhone Line Transfer +` 
-台幣:heavy_dollar_sign:723 (這是 2019/09 購入 Personal Edition 方案含國外手續費的價格) 
+台幣 $723 (這是 2019/09 購入 Personal Edition 方案含國外手續費的價格) 
 
 ## ios ⇌ Android 轉移前須知重點<!-- more -->
 - 該軟體 Personal Edition 方案序號只能用在一台電腦上，不能轉移到別台電腦進行作業
@@ -41,13 +41,13 @@ thumbnail: https://lh3.google.com/u/2/d/18UUS_pPogcy_UDicRf8CvYhsS8JRL0am=w1920-
 3. 登入新手機的 Line, 同時舊手機的 Line 被登出清空
 4. 移動備份檔至 Android 手機資料夾
 5. 手動依照想恢復的朋友對話，一個一個設定讀取
-6. 備份轉移成功 :heart_eyes_cat: :blue_heart: 
+6. 備份轉移成功
 
 ### 1. 購買、安裝 Backuptrans 軟體
 最便宜的版本是 Personal Edition 可轉三次方案，價錢與方案就差在轉移次數，沒有其他需求的話可直接購買這個版本。Mac 版比 Windows 版貴一些些。
 
-- [windows 版本](https://www.backuptrans.com/android-iphone-line-transfer-plus.html) USD $34.95
-- [mac 版本](https://www.backuptrans.com/android-iphone-line-transfer-plus-for-mac.html) USD $29.95
+- [windows 版本](https://www.backuptrans.com/android-iphone-line-transfer-plus.html) USD $29.95
+- [mac 版本](https://www.backuptrans.com/android-iphone-line-transfer-plus-for-mac.html) USD $34.95
 
 <figure>
   <img src="https://drive.google.com/uc?view&id=1zvCtBLh0NcQZhOSdGNP_y4mBZ5zQuRnr" alt="Backuptrans 所提供的購買方案"/>
