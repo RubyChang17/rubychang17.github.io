@@ -12,7 +12,7 @@ date: 2019-11-03 19:40:15
 urlname: line-backup-from-ios-to-android
 keywords: line, 備份, ios 轉 android, 教學, Backuptrans, 蘋果換安卓
 description: 希望前四大段可以幫助你快速的判斷這篇Line 換手機備份從 iOS 轉 Android 教學文，與你的狀況是不是符合。如果有任何疑問，歡迎隨時留言發問喔，我會盡所能幫你解答 🌞
-thumbnail: https://lh3.google.com/u/2/d/18UUS_pPogcy_UDicRf8CvYhsS8JRL0am=w1920-h930-iv1
+thumbnail: https://lh3.googleusercontent.com/pw/ACtC-3er235Gc907peEzoh_YGTC3aOUpC9JEPrVKVi6K26u2PmWRm4DJ5a1Rs5iWqhRjgkWw2fbVl3EYBqo4aOHiytdgccBkxopPeF3XheygIHzTH9-Z-b3fSKAmXFrxP7_x9V-qY3ks_Y2ZL_P4vY9h1g=w1334-h750-no?authuser=1
 ---
 
 希望前四大段可以幫助你快速的判斷這篇教學文，與你的狀況是不是符合。如果有任何疑問，歡迎隨時留言發問喔，我會盡所能幫你解答 🌞
@@ -75,7 +75,7 @@ thumbnail: https://lh3.google.com/u/2/d/18UUS_pPogcy_UDicRf8CvYhsS8JRL0am=w1920-
 
 2. 把備份好的 iPhone 紀錄搬移到 Android 的資料夾
     <figure>
-      <img src="https://lh3.google.com/u/0/d/1Sb9unr_9WWcIf0L4By033wXwfjnnzqZT=w1440-h713-iv1" alt="在 local 備份上點右鍵，選擇 Export to Line backup file"/>
+      <img src="https://lh3.googleusercontent.com/pw/ACtC-3d-MfYZSG6yP6fhRMdzeHfoyBr9cvs0H7y_Er8BC5yCy6smQS5fsx67PGquMJCWPXzjHasZXEwSj5D3LpgR9E5xIBayjU8zRAYQ2cv1L6x9zQ9JvJ87loHnt7dykOKq77dPevcHIqdNSfEYZiZ3gw=w680-h483-no?authuser=1" alt="在 local 備份上點右鍵，選擇 Export to Line backup file"/>
       <cite>Photo: <a target="_blank" href="https://www.backuptrans.com/tutorial/transfer-line-chats-manually-for-android.html">backuptrans</a></cite>
     </figure>
 
@@ -87,7 +87,7 @@ thumbnail: https://lh3.google.com/u/2/d/18UUS_pPogcy_UDicRf8CvYhsS8JRL0am=w1920-
 如果裡面已存在同檔名的 LINE_Backup，務必要把原有的資料夾改名或移除，否則會失敗。
 
 <figure>
-      <img src="https://lh3.google.com/u/0/d/1dmki2Xl7mO6t_PUwGoB5HNBmfuturXRs=w885-h713-iv1" alt="將裡面的LINE_Backup複製到 Android 的資料夾中"/>
+      <img src="https://lh3.googleusercontent.com/pw/ACtC-3f7UYnF1x4kAHS-P6U4XcjBu6nyomzs5g2IxeBkVmAROprWbKnwzAU8Di3GuWGztaaKJIasoVfeo0Aw-UVelFH5pv0xUbth1xAUTjhbWWC9G2fkxlixW5bkLWoxZwtCJpgaEFVZEWki1WVRuE256Q=w680-h514-no?authuser=1" alt="將裡面的LINE_Backup複製到 Android 的資料夾中"/>
       <cite>Photo: <a target="_blank" href="https://www.backuptrans.com/tutorial/transfer-line-chats-manually-for-android.html">backuptrans</a></cite>
 </figure>
 
@@ -95,7 +95,7 @@ thumbnail: https://lh3.google.com/u/2/d/18UUS_pPogcy_UDicRf8CvYhsS8JRL0am=w1920-
 真正的苦工開始了，點選想匯入備份紀錄的朋友， `右上方的Ｖ符號 > 聊天設定 > 匯入聊天記錄` 慢慢的一個個匯入完，就大功告成囉 :+1: (即使聊天視窗內已經在新手機有一些對話內容，經測試，還是可以順利匯入聊天記錄喔)
 
 <figure>
-      <img src="https://lh3.google.com/u/0/d/1LlTOFswkChy6mi24C78Ewsr48HbO1Toq=w885-h713-iv2" alt="匯入聊天記錄"/>
+      <img src="https://lh3.googleusercontent.com/pw/ACtC-3coIxydbdrGyZGHzHy9CVTBaNI0Qiomzsx1bMtIMcUUpc11wMefvtglAPwCXgeytFfAktGqmG1YWyw5ixpeT5Jcw3ucFT01yNeVUUmpsCaD1On1jV-0JJ5bsnr5-vOG4iGu883OYgEerXEHQdcBUg=s600-no?authuser=1" alt="匯入聊天記錄"/>
       <cite>Photo: <a target="_blank" href="https://butimalone12.pixnet.net/blog/post/460056525">失物招領</a></cite>
 </figure>
 
