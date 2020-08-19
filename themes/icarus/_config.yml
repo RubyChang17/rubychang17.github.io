@@ -39,15 +39,15 @@ navbar:
 footer:
     # Links to be shown on the right of the footer section
     links:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: 'https://creativecommons.org/'
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: 'https://creativecommons.org/licenses/by/4.0/'
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+        IG:
+            icon: fab fa-instagram
+            url: 'https://www.instagram.com/rurustrace/'
+        FB:
+            icon: fab fa-facebook-square
+            url: 'https://www.facebook.com/rurustrace'
+        Youtube:
+            icon: fab fa-youtube
+            url: 'https://www.youtube.com/channel/UC0w27MhQORFv3x4iYAF0ZSQ?view_as=subscriber'
 # Article display settings
 article:
     # Code highlight settings
