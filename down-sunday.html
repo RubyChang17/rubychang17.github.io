@@ -83,31 +83,8 @@
 
 
 <link rel="stylesheet" href="/css/style.css">
-
-<!-- Facebook Fan Page Auto Like -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript">
-  var interval = 0;
-
-  function updateActiveElement() {
-    if($(document.activeElement).attr('id') == "fb-iframe") {
-      clearInterval(interval);
-      bodyClicked = true;
-    }
-  }
-
-  $(function() {
-    interval = setInterval("updateActiveElement();", 50);
-  });
-
-</script>
 </head>
 <body class="is-3-column">
-    <!-- Facebook Fan Page Auto Like -->
-    <div style="overflow: hidden; width: 10px; height: 12px; position: absolute; filter:alpha(opacity=0); -moz-opacity:0.0; -khtml-opacity: 0.0; opacity: 0.0;" id="iframe-wrapper">
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/rurustrace&send=false&layout=button_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=21&confirm=false" scrolling="no" frameborder="0" style="border:none;overflow:hidden;width:450px;height:21px;" allowTransparency="false"></iframe>
-    </div>
-
     <nav class="navbar navbar-main">
     <div class="container">
         <div class="navbar-brand is-flex-center">
@@ -326,25 +303,25 @@
                 <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
                 
                 <p class="control">
-                    <a class="button is-white is-large" target="_blank" title="Creative Commons" href="https://creativecommons.org/" rel="external nofollow noreferrer">
+                    <a class="button is-white is-large" target="_blank" title="IG" href="https://www.instagram.com/rurustrace/" rel="external nofollow noreferrer">
                         
-                        <i class="fab fa-creative-commons"></i>
-                        
-                    </a>
-                </p>
-                
-                <p class="control">
-                    <a class="button is-white is-large" target="_blank" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/" rel="external nofollow noreferrer">
-                        
-                        <i class="fab fa-creative-commons-by"></i>
+                        <i class="fab fa-instagram"></i>
                         
                     </a>
                 </p>
                 
                 <p class="control">
-                    <a class="button is-white is-large" target="_blank" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus" rel="external nofollow noreferrer">
+                    <a class="button is-white is-large" target="_blank" title="FB" href="https://www.facebook.com/rurustrace" rel="external nofollow noreferrer">
                         
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Youtube" href="https://www.youtube.com/channel/UC0w27MhQORFv3x4iYAF0ZSQ?view_as=subscriber" rel="external nofollow noreferrer">
+                        
+                        <i class="fab fa-youtube"></i>
                         
                     </a>
                 </p>
@@ -481,29 +458,4 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="/css/insight.css">
     
 </body>
-
-    <!-- Facebook Fan Page Auto Like -->
-    <script type="text/javascript">
-    var bodyClicked = false;
-    var iframeWrapper = document.getElementById('iframe-wrapper');
-    var standardBody=(document.compatMode=="CSS1Compat") ? document.documentElement : document.body;
-  
-    function mouseFollower(e) {
-      // for internet explorer
-      if (window.event) {
-        iframeWrapper.style.top = (window.event.y-5)+standardBody.scrollTop+'px';
-        iframeWrapper.style.left = (window.event.x-5)+standardBody.scrollLeft+'px';
-      }
-      else {
-        iframeWrapper.style.top = (e.pageY-5)+'px';
-        iframeWrapper.style.left = (e.pageX-5)+'px';
-      }
-    }
-  
-    document.onmousemove = function(e) {
-      if(bodyClicked == false) {
-        mouseFollower(e);
-      }
-    }
-    </script>
 </html>
