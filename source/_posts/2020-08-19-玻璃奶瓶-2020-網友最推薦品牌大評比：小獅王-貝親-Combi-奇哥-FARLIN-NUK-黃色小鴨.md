@@ -8,7 +8,7 @@ tags:
 toc: true
 date: 2020-08-19 00:11:14
 urlname: 2020-best-glass-feeding-bottles
-thumbnail:
+thumbnail: https://lh3.googleusercontent.com/pw/ACtC-3eFfrhqqQo7batiFpWdTvY-TZxuAvO6jWYOfE42l3jvosaaVEGk2Unx9R4qMI5RiA9qSuLtRiASqjBvTbKuBLawa8C82FLgatpIdV00M0vWfQwpHCUmVR3rTiTETjm57CFPqOXjk99E2RTFCwIoRaU=w761-h326-no?authuser=1
 ---
 
 
@@ -414,4 +414,6 @@ FB媽媽社團加上PTT媽寶版，網路的聲量排行如下：
 ---
 
 文字看得太累的話，可以看輕鬆影片版喲 ⤵
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n1pddUq7SMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
