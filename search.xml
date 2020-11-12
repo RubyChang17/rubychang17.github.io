@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Calibre DeDRM 插件安裝失敗解法</title>
+    <url>/how-to-fix-calibre-dedrm-plugin.html</url>
+    <content><![CDATA[<p>趁著 1111 電商折扣季入手了 KOBO libra H2O, 目前最大宗的 Amazon, 樂天 KOBO, 台灣的 Readmoo 還有 Google Play Books, 電子書一家一個平台跟行動支付各自開發讓使用者一樣無所適從。我照著 <a href="https://budafang.blogspot.com/2018/02/calibredrmkindlekobo.html" rel="noopener" target="_blank">Budalogy - 如何利用calibre去除DRM，讓kindle也可以讀kobo</a> 這篇(包括留言) 操作，卻還是失敗不能用，出現下面的錯誤訊息。<a id="more"></a></p>
+<figure class="highlight plain hljs"><table><tr><td class="code"><pre><span class="line">SyntaxError:invalaid syntax(calibre-plugins.dedrm._init_line168)</span><br><span class="line">File &quot;calibre_plugins.dedrm.__init__&quot;, line 168</span><br><span class="line">print u&quot;&#123;0&#125; v&#123;1&#125;: Copying needed library files from plugin&apos;s zip&quot;.format(PLUGIN_NAME, PLUGIN_VERSION)</span><br><span class="line">^</span><br><span class="line">SyntaxError: invalid syntax</span><br></pre></td></tr></table></figure>
+
+<p>又花點時間解決，原來是因為 Calibre 的最新版是 python3, 但 DeDRM plugin 還沒跟上，所以才會造成插件怪怪的失敗。</p>
+<p>解決辦法很簡單，只要先繼續用 Calibre 的舊版就行囉！(<a href="https://download.calibre-ebook.com/4.23.0/" rel="noopener" target="_blank">直接下載多數人推薦的 version 4.23</a>)</p>
+]]></content>
+      <categories>
+        <category>科技宅少女</category>
+      </categories>
+      <tags>
+        <tag>3C</tag>
+        <tag>教學</tag>
+        <tag>紀錄</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>苗栗 寨酌然 野奢庄園 The Forest Museum 兩天一夜</title>
     <url>/the-forest-museum.html</url>
     <content><![CDATA[<p>記得幾年前跟江夢在安排行程時，曾經看過各種高級露營的營地介紹，無奈那價位不是我們輕易花得下手的，便遲遲沒有真的下訂這類的營地。因緣際會下，被前副總邀約亂入B羅他們的部門教育訓練之旅，成為唯一一位特例，怪不好意思的，但看到地點是寨酌然，二話不說就馬上報名了。<a id="more"></a></p>
