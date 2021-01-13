@@ -2,7 +2,6 @@
 title: 比較電子閱讀器 Kobo Libra H2O 與 Kindle 的差別
 categories:
   - 科技宅少女
-  - 購物心得
 tags:
   - 親身推薦
   - 3C
