@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html  lang="zh">
+<head>
+    <meta charset="utf-8" />
+
+<!--google adsense-->
+<script data-ad-client="ca-pub-9314341700939759" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<meta name="agd-partner-manual-verification" />
+
+<meta name="generator" content="Hexo 3.9.0" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<title>Calibre DeDRM 插件安裝失敗解法 - 鹿鹿生活日誌</title>
+
+
+    <meta name="description" content="目前最大宗的 Amazon, 樂天 KOBO, 台灣的 Readmoo 還有 Google Play Books, 電子書一家一個平台跟行動支付各自開發讓使用者一樣無所適從。我照著 這篇(包括留言) 操作，卻還是失敗不能用，出現下面的錯誤訊息。">
+<meta name="keywords" content="3C,教學,紀錄">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Calibre DeDRM 插件安裝失敗解法">
+<meta property="og:url" content="https://www.rurustrace.com/how-to-fix-calibre-dedrm-plugin.html">
+<meta property="og:site_name" content="鹿鹿生活日誌">
+<meta property="og:description" content="目前最大宗的 Amazon, 樂天 KOBO, 台灣的 Readmoo 還有 Google Play Books, 電子書一家一個平台跟行動支付各自開發讓使用者一樣無所適從。我照著 這篇(包括留言) 操作，卻還是失敗不能用，出現下面的錯誤訊息。">
+<meta property="og:locale" content="zh-TW">
+<meta property="og:image" content="https://lh3.googleusercontent.com/pw/ACtC-3edXCLZK_IcIb45xIUPsRJd43_iGbghDrH2JCHuO0YqbtTw4gscsvD_KwWfa468mU3zocPPMh0uu4fxOfo2uppQSQEVNXV5Oah9eBAv3ahuMyaVlP4T_Rjk_k8q3cRFmf4iC2y-H1Ycg-C9AR-80Ls=w1250-h536-no?authuser=1">
+<meta property="og:updated_time" content="2020-11-12T03:35:23.370Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Calibre DeDRM 插件安裝失敗解法">
+<meta name="twitter:description" content="目前最大宗的 Amazon, 樂天 KOBO, 台灣的 Readmoo 還有 Google Play Books, 電子書一家一個平台跟行動支付各自開發讓使用者一樣無所適從。我照著 這篇(包括留言) 操作，卻還是失敗不能用，出現下面的錯誤訊息。">
+<meta name="twitter:image" content="https://lh3.googleusercontent.com/pw/ACtC-3edXCLZK_IcIb45xIUPsRJd43_iGbghDrH2JCHuO0YqbtTw4gscsvD_KwWfa468mU3zocPPMh0uu4fxOfo2uppQSQEVNXV5Oah9eBAv3ahuMyaVlP4T_Rjk_k8q3cRFmf4iC2y-H1Ycg-C9AR-80Ls=w1250-h536-no?authuser=1">
+
+
+
+
+
+
+
+<link rel="icon" href="/images/favicon.svg">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+
+
+    
+    
+<style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+    
+    
+    
+    
+<link rel="stylesheet" href="/css/back-to-top.css">
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150897424-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150897424-1');
+</script>
+
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/progressbar.css">
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+    
+    <script async="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+
+
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="is-3-column">
+    <nav class="navbar navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="/">
+            
+                <img src="/images/logo.svg" alt="Calibre DeDRM 插件安裝失敗解法" height="28">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-start">
+                
+                <a class="navbar-item"
+                href="/">Home</a>
+                
+                <a class="navbar-item"
+                href="/archives">時間軸</a>
+                
+                <a class="navbar-item"
+                href="/categories">分類</a>
+                
+                <a class="navbar-item"
+                href="/tags">標籤</a>
+                
+                <a class="navbar-item"
+                href="/about">關於鹿</a>
+                
+            </div>
+            
+            <div class="navbar-end">
+                
+                
+                <a class="navbar-item is-hidden-tablet catalogue" title="文章目錄" href="javascript:;" rel="external nofollow noreferrer">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
+                
+                <a class="navbar-item search" title="搜尋" href="javascript:;" rel="external nofollow noreferrer">
+                    <i class="fas fa-search"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8-tablet is-8-desktop is-9-widescreen has-order-2 column-main">
+<div class="card">
+    
+    <div class="card-image">
+        <span  class="image is-7by1">
+            <img class="thumbnail" src="https://lh3.googleusercontent.com/pw/ACtC-3edXCLZK_IcIb45xIUPsRJd43_iGbghDrH2JCHuO0YqbtTw4gscsvD_KwWfa468mU3zocPPMh0uu4fxOfo2uppQSQEVNXV5Oah9eBAv3ahuMyaVlP4T_Rjk_k8q3cRFmf4iC2y-H1Ycg-C9AR-80Ls=w1250-h536-no?authuser=1" alt="Calibre DeDRM 插件安裝失敗解法">
+        </span>
+    </div>
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-11-12T00:24:49.000Z">2020-11-12</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/科技宅少女/">科技宅少女</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    2 分鐘 閱讀文 (大約 230 個字)
+                </span>
+                
+                
+                <span class="level-item has-text-grey" id="busuanzi_container_page_pv">
+                    <i class="far fa-eye"></i>
+                    <span id="busuanzi_value_page_pv">0</span> visits
+                </span>
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                Calibre DeDRM 插件安裝失敗解法
+            
+        </h1>
+        <div class="content">
+            <p>趁著 1111 電商折扣季入手了 KOBO libra H2O, 目前最大宗的 Amazon, 樂天 KOBO, 台灣的 Readmoo 還有 Google Play Books, 電子書一家一個平台跟行動支付各自開發讓使用者一樣無所適從。我照著 <a href="https://budafang.blogspot.com/2018/02/calibredrmkindlekobo.html" rel="noopener external nofollow noreferrer" target="_blank">Budalogy - 如何利用calibre去除DRM，讓kindle也可以讀kobo</a> 這篇(包括留言) 操作，卻還是失敗不能用，出現下面的錯誤訊息。<a id="more"></a></p>
+<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">SyntaxError:invalaid syntax(calibre-plugins.dedrm._init_line168)</span><br><span class="line">File &quot;calibre_plugins.dedrm.__init__&quot;, line 168</span><br><span class="line">print u&quot;&#123;0&#125; v&#123;1&#125;: Copying needed library files from plugin&apos;s zip&quot;.format(PLUGIN_NAME, PLUGIN_VERSION)</span><br><span class="line">^</span><br><span class="line">SyntaxError: invalid syntax</span><br></pre></td></tr></table></figure>
+
+<p>又花點時間解決，原來是因為 Calibre 的最新版是 python3, 但 DeDRM plugin 還沒跟上，所以才會造成插件怪怪的失敗。</p>
+<p>解決辦法很簡單，只要先繼續用 Calibre 的舊版就行囉！(<a href="https://download.calibre-ebook.com/4.23.0/" rel="noopener external nofollow noreferrer" target="_blank">直接下載多數人推薦的 version 4.23</a>)</p>
+
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/3C/">3C</a>, <a class="has-link-grey -link" href="/tags/教學/">教學</a>, <a class="has-link-grey -link" href="/tags/紀錄/">紀錄</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/kobo-libra-h2o-vs-kindle.html">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">比較電子閱讀器 Kobo Libra H2O 與 Kindle 的差別</span>
+            </a>
+        </div>
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/the-forest-museum.html">
+                <span class="level-item">苗栗 寨酌然 野奢庄園 The Forest Museum 兩天一夜</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="title is-5 has-text-weight-normal">評論</h3>
+        
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://www.rurustrace.com/how-to-fix-calibre-dedrm-plugin.html';
+        this.page.identifier = 'how-to-fix-calibre-dedrm-plugin.html';
+    };
+    (function() {
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'rurustrace' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<div id="disqus_thread">
+    
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    </div>
+</div>
+</div>
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
+    
+        
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                文章目錄
+            </h3>
+            
+        </div>
+    </div>
+</div>
+    
+    
+        <div class="column-right-shadow is-hidden-widescreen ">
+        
+        </div>
+    
+</div>
+
+                
+                
+                
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="/">
+                
+                    <img src="/images/logo.svg" alt="Calibre DeDRM 插件安裝失敗解法" height="28">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2021 Ru Ru&nbsp;
+                Powered by <a href="https://hexo.io/" rel="external nofollow noreferrer" target="_blank">Hexo</a> & <a
+                        href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
+                
+                <br>
+                <span id="busuanzi_container_site_uv"> 造訪 <span id="busuanzi_value_site_uv"></span>人</span>
+                <span id="busuanzi_container_site_pv">, 累積人氣 <span id="busuanzi_value_site_pv"></span></span>
+                
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="IG" href="https://www.instagram.com/rurustrace/" rel="external nofollow noreferrer">
+                        
+                        <i class="fab fa-instagram"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="FB" href="https://www.facebook.com/rurustrace" rel="external nofollow noreferrer">
+                        
+                        <i class="fab fa-facebook-square"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Youtube" href="https://www.youtube.com/channel/UC0w27MhQORFv3x4iYAF0ZSQ?view_as=subscriber" rel="external nofollow noreferrer">
+                        
+                        <i class="fab fa-youtube"></i>
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("zh-TW");</script>
+
+<script>
+var IcarusThemeSettings = {
+    article: {
+        highlight: {
+            clipboard: true,
+            fold: 'unfolded'
+        }
+    }
+};
+</script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+
+
+
+    
+    
+<script src="/js/animation.js"></script>
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+<script src="/js/gallery.js" defer></script>
+
+    
+    
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/" rel="external nofollow noreferrer">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        });
+    });
+</script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    MathJax.Hub.Config({
+        'HTML-CSS': {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+});
+</script>
+    
+    
+<a id="back-to-top" title="回到頁首" href="javascript:;" rel="external nofollow noreferrer">
+    <i class="fas fa-chevron-up"></i>
+</a>
+<script src="/js/back-to-top.js" defer></script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+<script src="/js/main.js" defer></script>
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="請輸入關鍵字..." />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '頁面',
+                CATEGORIES: '分類',
+                TAGS: '標籤',
+                UNTITLED: '(無標題)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="/js/insight.js" defer></script>
+<link rel="stylesheet" href="/css/search.css">
+<link rel="stylesheet" href="/css/insight.css">
+    
+</body>
+</html>
