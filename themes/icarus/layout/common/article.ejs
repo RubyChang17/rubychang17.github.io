@@ -48,16 +48,6 @@
         <div class="content">
             <%- index && post.excerpt ? post.excerpt : post.content %>
         </div>
-        <% if (!index && post.layout === 'post' && post.copyright !== false) { %>
-            <ul class="post-copyright">
-            <li><strong>本文標題：</strong><a href="<%= post.permalink %>"><%= page.title %></a></li>
-            <li><strong>本文作者：</strong><a href="<%= theme.url %>"><%= theme.author %></a></li>
-            <li><strong>本文連結：</strong><a href="<%= post.permalink %>"><%= post.permalink %></a></li>
-            <li><strong>發表時間：</strong><%= post.date.format("YYYY-MM-DD") %></li>
-            <li><strong>版權聲明：</strong>本 Blog 所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 協議。轉載請註明出處！
-            </li>
-            </ul>
-        <% } %>
         <% if (!index && post.tags && post.tags.length) { %>
         <div class="level is-size-7 is-uppercase">
             <div class="level-start">
