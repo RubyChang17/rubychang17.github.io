@@ -224,7 +224,11 @@ img.thumbnail {
   border-radius: 0;
   margin: 0 -1.5rem 1.5rem -1.5rem;
 }
-.article .content .message.message-immersive .message-body {
+.article .content .message.is-primary {
+  border-color: #3273dc;
+  color: #2160c8;
+}
+.article .content .message.is-primary .message-body {
   border: none;
 }
 .rtl {
