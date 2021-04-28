@@ -67,97 +67,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Line 換手機備份從 iOS 轉 Android 教學</title>
-    <url>/line-backup-from-ios-to-android.html</url>
-    <content><![CDATA[<html><head></head><body><p>希望前四大段可以幫助你快速的判斷這篇教學文，與你的狀況是不是符合。如果有任何疑問，歡迎隨時留言發問喔，我會盡所能幫你解答 🌞</p>
-<h2 id="本文實測設備"><a href="#本文實測設備" class="headerlink" title="本文實測設備"></a>本文實測設備</h2><p><code>iPhone 8 plus</code> ios 系統 Line 備份轉移至 <code>Samsung s10e</code> Android 系統 8.0 以上</p>
-<h2 id="目前-Line-轉移備份的可行作法"><a href="#目前-Line-轉移備份的可行作法" class="headerlink" title="目前 Line 轉移備份的可行作法"></a>目前 Line 轉移備份的可行作法</h2><ul>
-<li>ios ➯ ios : Line 內建，路徑是 <code>設定 &gt; 聊天 &gt; 備份聊天記錄 &gt; 馬上進行備份</code></li>
-<li>Android ➯ Android : Line 內建，路徑是 <code>設定 &gt; 聊天 &gt; 備份及復原聊天記錄 &gt; Google 帳號 &gt; 備份至 Google 雲端硬碟</code> </li>
-<li>ios ⇌ Android : 需購買電腦軟體 <code>Backuptrans Android iPhone Line Transfer +</code><br>台幣 $723 (這是 2019/09 購入 Personal Edition 方案含國外手續費的價格) </li>
-</ul>
-<h2 id="ios-⇌-Android-轉移前須知重點"><a href="#ios-⇌-Android-轉移前須知重點" class="headerlink" title="ios ⇌ Android 轉移前須知重點"></a>ios ⇌ Android 轉移前須知重點<a id="more"></a></h2><ul>
-<li>該軟體 Personal Edition 方案序號只能用在一台電腦上，不能轉移到別台電腦進行作業</li>
-<li>轉移至 Android 8.0 以上手機，必須 <code>手動點開一位一位朋友的聊天視窗</code> ，個別恢復已備份的聊天內容!!! 若不想這麼麻煩，要先轉移到 Android 8.0 以下的手機，再用安卓間互轉的方式轉移。</li>
-<li>多人聊天紀錄無法還原 (群組可以)</li>
-<li>照片沒過期的話會一起轉移</li>
-<li>語音訊息無法轉移</li>
-</ul>
-<h2 id="轉移流程"><a href="#轉移流程" class="headerlink" title="轉移流程"></a>轉移流程</h2><p>看完前述的重點依然要繼續往下的話，讓我們來看看轉移的整個流程步驟是怎麼樣～甭緊張，雖然乍看很複雜，但冤枉路我都走完了，仔細的慢慢操作，應該不困難！</p>
-<ol>
-<li>購買、安裝 Backuptrans 軟體</li>
-<li>連接 iPhone 進行備份</li>
-<li>登入新手機的 Line, 同時舊手機的 Line 被登出清空</li>
-<li>移動備份檔至 Android 手機資料夾</li>
-<li>手動依照想恢復的朋友對話，一個一個設定讀取</li>
-<li>備份轉移成功</li>
-</ol>
-<h3 id="1-購買、安裝-Backuptrans-軟體"><a href="#1-購買、安裝-Backuptrans-軟體" class="headerlink" title="1. 購買、安裝 Backuptrans 軟體"></a>1. 購買、安裝 Backuptrans 軟體</h3><p>最便宜的版本是 Personal Edition 可轉三次方案，價錢與方案就差在轉移次數，沒有其他需求的話可直接購買這個版本。Mac 版比 Windows 版貴一些些。</p>
-<ul>
-<li><a href="https://www.backuptrans.com/android-iphone-line-transfer-plus.html">windows 版本</a> USD $29.95</li>
-<li><a href="https://www.backuptrans.com/android-iphone-line-transfer-plus-for-mac.html">mac 版本</a> USD $34.95</li>
-</ul>
-<figure>
-  <img src="https://drive.google.com/uc?view&amp;id=1zvCtBLh0NcQZhOSdGNP_y4mBZ5zQuRnr" alt="Backuptrans 所提供的購買方案">
-  <cite>Photo: <a target="_blank" href="https://www.vaginamuseum.co.uk/">鹿鹿生活日誌</a></cite>
-</figure>
-
-<h3 id="2-連接-iPhone-進行備份"><a href="#2-連接-iPhone-進行備份" class="headerlink" title="2. 連接 iPhone 進行備份"></a>2. 連接 iPhone 進行備份</h3><p>這個步驟比較簡單</p>
-<ol>
-<li>手機畫面維持在桌面</li>
-<li>確認手機的line正確登入</li>
-<li>接下來就開始等待進行備份囉，電腦畫面會出現 <code>Loading data from Device...</code><br>這部分雖然簡單，但我一開始卡超久的，因為進度條很久都沒往前，一直停在 0% . 前幾次嘗試都以為是我設定有問題，沒連接上。後來才發現，只是跑很慢而已，耐心地等就沒問題了！</li>
-<li>備份完成時，就能在該軟體上看到所有的對話紀錄</li>
-</ol>
-<h3 id="3-登入新手機的-Line-同時舊手機的-Line-被登出清空"><a href="#3-登入新手機的-Line-同時舊手機的-Line-被登出清空" class="headerlink" title="3. 登入新手機的 Line, 同時舊手機的 Line 被登出清空"></a>3. 登入新手機的 Line, 同時舊手機的 Line 被登出清空</h3><ol>
-<li>舊手機 Line 開啟移動帳號功能</li>
-<li>在新手機完成登入。</li>
-</ol>
-<p>這時候看到空白一片的聊天記錄會感覺怕怕的哈哈哈，我懂，不要怕！繼續往下，快完成了。</p>
-<h3 id="4-將備份好的紀錄搬到-Android-的資料夾中"><a href="#4-將備份好的紀錄搬到-Android-的資料夾中" class="headerlink" title="4. 將備份好的紀錄搬到 Android 的資料夾中"></a>4. 將備份好的紀錄搬到 Android 的資料夾中</h3><ol>
-<li><p>先開啟 Android USB 偵錯模式<br>因我是用 Samsung 手機，開啟的路徑會是 <code>設定 &gt; 關於裝置  &gt; 軟體資訊 &gt; 版本號碼，連續點擊 7 次，直到出現「開發者模式已啟用」</code><br>不同廠牌的設定方式應該小有不同，可以 google 『廠牌 + USB 偵錯模式』找到設定方式。</p>
-</li>
-<li><p>把備份好的 iPhone 紀錄搬移到 Android 的資料夾</p>
- <figure>
-   <img src="https://lh3.googleusercontent.com/pw/ACtC-3d-MfYZSG6yP6fhRMdzeHfoyBr9cvs0H7y_Er8BC5yCy6smQS5fsx67PGquMJCWPXzjHasZXEwSj5D3LpgR9E5xIBayjU8zRAYQ2cv1L6x9zQ9JvJ87loHnt7dykOKq77dPevcHIqdNSfEYZiZ3gw=w680-h483-no?authuser=1" alt="在 local 備份上點右鍵，選擇 Export to Line backup file">
-   <cite>Photo: <a target="_blank" href="https://www.backuptrans.com/tutorial/transfer-line-chats-manually-for-android.html">backuptrans</a></cite>
- </figure>
-
-<p> 2.1 如下面官網示意圖，在 local 備份上點右鍵，選擇 <code>Export to Line backup file</code></p>
-<p> 2.2 出現視窗請你選擇你新手機上面的正確 Line 帳號 (如果電腦 local 中只有一個剛剛操作的備份檔，那正常只會有那一個選項)，選完點 OK，會跳出存檔視窗，存在哪邊都可以，但千萬 <code>不要更改檔名</code> !!! 匯出完成後，即可關掉軟體。</p>
-</li>
-<li><p>把匯出的檔案打開，將裡面的 <code>LINE_Backup</code> 複製到 Android 的資料夾中<br>如果裡面已存在同檔名的 LINE_Backup，務必要把原有的資料夾改名或移除，否則會失敗。</p>
-</li>
-</ol>
-<figure>
-      <img src="https://lh3.googleusercontent.com/pw/ACtC-3f7UYnF1x4kAHS-P6U4XcjBu6nyomzs5g2IxeBkVmAROprWbKnwzAU8Di3GuWGztaaKJIasoVfeo0Aw-UVelFH5pv0xUbth1xAUTjhbWWC9G2fkxlixW5bkLWoxZwtCJpgaEFVZEWki1WVRuE256Q=w680-h514-no?authuser=1" alt="將裡面的LINE_Backup複製到 Android 的資料夾中">
-      <cite>Photo: <a target="_blank" href="https://www.backuptrans.com/tutorial/transfer-line-chats-manually-for-android.html">backuptrans</a></cite>
-</figure>
-
-<h3 id="5-手動依照想恢復的朋友對話，一個一個設定讀取"><a href="#5-手動依照想恢復的朋友對話，一個一個設定讀取" class="headerlink" title="5. 手動依照想恢復的朋友對話，一個一個設定讀取"></a>5. 手動依照想恢復的朋友對話，一個一個設定讀取</h3><p>真正的苦工開始了，點選想匯入備份紀錄的朋友， <code>右上方的Ｖ符號 &gt; 聊天設定 &gt; 匯入聊天記錄</code> 慢慢的一個個匯入完，就大功告成囉 :+1: (即使聊天視窗內已經在新手機有一些對話內容，經測試，還是可以順利匯入聊天記錄喔)</p>
-<figure>
-      <img src="https://lh3.googleusercontent.com/pw/ACtC-3coIxydbdrGyZGHzHy9CVTBaNI0Qiomzsx1bMtIMcUUpc11wMefvtglAPwCXgeytFfAktGqmG1YWyw5ixpeT5Jcw3ucFT01yNeVUUmpsCaD1On1jV-0JJ5bsnr5-vOG4iGu883OYgEerXEHQdcBUg=s600-no?authuser=1" alt="匯入聊天記錄">
-      <cite>Photo: <a target="_blank" href="https://butimalone12.pixnet.net/blog/post/460056525">失物招領</a></cite>
-</figure>
-
-<hr>
-<h4 id="參考網址"><a href="#參考網址" class="headerlink" title="參考網址"></a>參考網址</h4><ul>
-<li><a href="https://butimalone12.pixnet.net/blog/post/460056525">https://butimalone12.pixnet.net/blog/post/460056525</a></li>
-<li><a href="https://steachs.com/archives/48853">https://steachs.com/archives/48853</a></li>
-<li><a href="https://steachs.com/archives/29432">https://steachs.com/archives/29432</a></li>
-</ul>
-</body></html>]]></content>
-      <categories>
-        <category>科技宅少女</category>
-      </categories>
-      <tags>
-        <tag>懶人包</tag>
-        <tag>購物心得</tag>
-        <tag>3C</tag>
-        <tag>教學</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>[婚禮大小事] 台中手工喜餅試吃推薦 😋</title>
     <url>/taichung-taiwanese-bride-cake-recommend-2019.html</url>
     <content><![CDATA[<html><head></head><body><p>年初拍完輕婚紗照，當時還沒決定要結婚，只是因緣際會下先拍看看、拍個好玩。但 B 羅跟我拍完覺得好像就這樣順勢趕快結婚也可以，如此這般，很迅速地決定要盡快辦完婚禮（哈哈哈沒錯就是那麼務實及隨性）。</p>
@@ -275,6 +184,97 @@
         <tag>購物心得</tag>
         <tag>親身推薦</tag>
         <tag>婚禮大小事</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Line 換手機備份從 iOS 轉 Android 教學</title>
+    <url>/line-backup-from-ios-to-android.html</url>
+    <content><![CDATA[<html><head></head><body><p>希望前四大段可以幫助你快速的判斷這篇教學文，與你的狀況是不是符合。如果有任何疑問，歡迎隨時留言發問喔，我會盡所能幫你解答 🌞</p>
+<h2 id="本文實測設備"><a href="#本文實測設備" class="headerlink" title="本文實測設備"></a>本文實測設備</h2><p><code>iPhone 8 plus</code> ios 系統 Line 備份轉移至 <code>Samsung s10e</code> Android 系統 8.0 以上</p>
+<h2 id="目前-Line-轉移備份的可行作法"><a href="#目前-Line-轉移備份的可行作法" class="headerlink" title="目前 Line 轉移備份的可行作法"></a>目前 Line 轉移備份的可行作法</h2><ul>
+<li>ios ➯ ios : Line 內建，路徑是 <code>設定 &gt; 聊天 &gt; 備份聊天記錄 &gt; 馬上進行備份</code></li>
+<li>Android ➯ Android : Line 內建，路徑是 <code>設定 &gt; 聊天 &gt; 備份及復原聊天記錄 &gt; Google 帳號 &gt; 備份至 Google 雲端硬碟</code> </li>
+<li>ios ⇌ Android : 需購買電腦軟體 <code>Backuptrans Android iPhone Line Transfer +</code><br>台幣 $723 (這是 2019/09 購入 Personal Edition 方案含國外手續費的價格) </li>
+</ul>
+<h2 id="ios-⇌-Android-轉移前須知重點"><a href="#ios-⇌-Android-轉移前須知重點" class="headerlink" title="ios ⇌ Android 轉移前須知重點"></a>ios ⇌ Android 轉移前須知重點<a id="more"></a></h2><ul>
+<li>該軟體 Personal Edition 方案序號只能用在一台電腦上，不能轉移到別台電腦進行作業</li>
+<li>轉移至 Android 8.0 以上手機，必須 <code>手動點開一位一位朋友的聊天視窗</code> ，個別恢復已備份的聊天內容!!! 若不想這麼麻煩，要先轉移到 Android 8.0 以下的手機，再用安卓間互轉的方式轉移。</li>
+<li>多人聊天紀錄無法還原 (群組可以)</li>
+<li>照片沒過期的話會一起轉移</li>
+<li>語音訊息無法轉移</li>
+</ul>
+<h2 id="轉移流程"><a href="#轉移流程" class="headerlink" title="轉移流程"></a>轉移流程</h2><p>看完前述的重點依然要繼續往下的話，讓我們來看看轉移的整個流程步驟是怎麼樣～甭緊張，雖然乍看很複雜，但冤枉路我都走完了，仔細的慢慢操作，應該不困難！</p>
+<ol>
+<li>購買、安裝 Backuptrans 軟體</li>
+<li>連接 iPhone 進行備份</li>
+<li>登入新手機的 Line, 同時舊手機的 Line 被登出清空</li>
+<li>移動備份檔至 Android 手機資料夾</li>
+<li>手動依照想恢復的朋友對話，一個一個設定讀取</li>
+<li>備份轉移成功</li>
+</ol>
+<h3 id="1-購買、安裝-Backuptrans-軟體"><a href="#1-購買、安裝-Backuptrans-軟體" class="headerlink" title="1. 購買、安裝 Backuptrans 軟體"></a>1. 購買、安裝 Backuptrans 軟體</h3><p>最便宜的版本是 Personal Edition 可轉三次方案，價錢與方案就差在轉移次數，沒有其他需求的話可直接購買這個版本。Mac 版比 Windows 版貴一些些。</p>
+<ul>
+<li><a href="https://www.backuptrans.com/android-iphone-line-transfer-plus.html">windows 版本</a> USD $29.95</li>
+<li><a href="https://www.backuptrans.com/android-iphone-line-transfer-plus-for-mac.html">mac 版本</a> USD $34.95</li>
+</ul>
+<figure>
+  <img src="https://drive.google.com/uc?view&amp;id=1zvCtBLh0NcQZhOSdGNP_y4mBZ5zQuRnr" alt="Backuptrans 所提供的購買方案">
+  <cite>Photo: <a target="_blank" href="https://www.vaginamuseum.co.uk/">鹿鹿生活日誌</a></cite>
+</figure>
+
+<h3 id="2-連接-iPhone-進行備份"><a href="#2-連接-iPhone-進行備份" class="headerlink" title="2. 連接 iPhone 進行備份"></a>2. 連接 iPhone 進行備份</h3><p>這個步驟比較簡單</p>
+<ol>
+<li>手機畫面維持在桌面</li>
+<li>確認手機的line正確登入</li>
+<li>接下來就開始等待進行備份囉，電腦畫面會出現 <code>Loading data from Device...</code><br>這部分雖然簡單，但我一開始卡超久的，因為進度條很久都沒往前，一直停在 0% . 前幾次嘗試都以為是我設定有問題，沒連接上。後來才發現，只是跑很慢而已，耐心地等就沒問題了！</li>
+<li>備份完成時，就能在該軟體上看到所有的對話紀錄</li>
+</ol>
+<h3 id="3-登入新手機的-Line-同時舊手機的-Line-被登出清空"><a href="#3-登入新手機的-Line-同時舊手機的-Line-被登出清空" class="headerlink" title="3. 登入新手機的 Line, 同時舊手機的 Line 被登出清空"></a>3. 登入新手機的 Line, 同時舊手機的 Line 被登出清空</h3><ol>
+<li>舊手機 Line 開啟移動帳號功能</li>
+<li>在新手機完成登入。</li>
+</ol>
+<p>這時候看到空白一片的聊天記錄會感覺怕怕的哈哈哈，我懂，不要怕！繼續往下，快完成了。</p>
+<h3 id="4-將備份好的紀錄搬到-Android-的資料夾中"><a href="#4-將備份好的紀錄搬到-Android-的資料夾中" class="headerlink" title="4. 將備份好的紀錄搬到 Android 的資料夾中"></a>4. 將備份好的紀錄搬到 Android 的資料夾中</h3><ol>
+<li><p>先開啟 Android USB 偵錯模式<br>因我是用 Samsung 手機，開啟的路徑會是 <code>設定 &gt; 關於裝置  &gt; 軟體資訊 &gt; 版本號碼，連續點擊 7 次，直到出現「開發者模式已啟用」</code><br>不同廠牌的設定方式應該小有不同，可以 google 『廠牌 + USB 偵錯模式』找到設定方式。</p>
+</li>
+<li><p>把備份好的 iPhone 紀錄搬移到 Android 的資料夾</p>
+ <figure>
+   <img src="https://lh3.googleusercontent.com/pw/ACtC-3d-MfYZSG6yP6fhRMdzeHfoyBr9cvs0H7y_Er8BC5yCy6smQS5fsx67PGquMJCWPXzjHasZXEwSj5D3LpgR9E5xIBayjU8zRAYQ2cv1L6x9zQ9JvJ87loHnt7dykOKq77dPevcHIqdNSfEYZiZ3gw=w680-h483-no?authuser=1" alt="在 local 備份上點右鍵，選擇 Export to Line backup file">
+   <cite>Photo: <a target="_blank" href="https://www.backuptrans.com/tutorial/transfer-line-chats-manually-for-android.html">backuptrans</a></cite>
+ </figure>
+
+<p> 2.1 如下面官網示意圖，在 local 備份上點右鍵，選擇 <code>Export to Line backup file</code></p>
+<p> 2.2 出現視窗請你選擇你新手機上面的正確 Line 帳號 (如果電腦 local 中只有一個剛剛操作的備份檔，那正常只會有那一個選項)，選完點 OK，會跳出存檔視窗，存在哪邊都可以，但千萬 <code>不要更改檔名</code> !!! 匯出完成後，即可關掉軟體。</p>
+</li>
+<li><p>把匯出的檔案打開，將裡面的 <code>LINE_Backup</code> 複製到 Android 的資料夾中<br>如果裡面已存在同檔名的 LINE_Backup，務必要把原有的資料夾改名或移除，否則會失敗。</p>
+</li>
+</ol>
+<figure>
+      <img src="https://lh3.googleusercontent.com/pw/ACtC-3f7UYnF1x4kAHS-P6U4XcjBu6nyomzs5g2IxeBkVmAROprWbKnwzAU8Di3GuWGztaaKJIasoVfeo0Aw-UVelFH5pv0xUbth1xAUTjhbWWC9G2fkxlixW5bkLWoxZwtCJpgaEFVZEWki1WVRuE256Q=w680-h514-no?authuser=1" alt="將裡面的LINE_Backup複製到 Android 的資料夾中">
+      <cite>Photo: <a target="_blank" href="https://www.backuptrans.com/tutorial/transfer-line-chats-manually-for-android.html">backuptrans</a></cite>
+</figure>
+
+<h3 id="5-手動依照想恢復的朋友對話，一個一個設定讀取"><a href="#5-手動依照想恢復的朋友對話，一個一個設定讀取" class="headerlink" title="5. 手動依照想恢復的朋友對話，一個一個設定讀取"></a>5. 手動依照想恢復的朋友對話，一個一個設定讀取</h3><p>真正的苦工開始了，點選想匯入備份紀錄的朋友， <code>右上方的Ｖ符號 &gt; 聊天設定 &gt; 匯入聊天記錄</code> 慢慢的一個個匯入完，就大功告成囉 :+1: (即使聊天視窗內已經在新手機有一些對話內容，經測試，還是可以順利匯入聊天記錄喔)</p>
+<figure>
+      <img src="https://lh3.googleusercontent.com/pw/ACtC-3coIxydbdrGyZGHzHy9CVTBaNI0Qiomzsx1bMtIMcUUpc11wMefvtglAPwCXgeytFfAktGqmG1YWyw5ixpeT5Jcw3ucFT01yNeVUUmpsCaD1On1jV-0JJ5bsnr5-vOG4iGu883OYgEerXEHQdcBUg=s600-no?authuser=1" alt="匯入聊天記錄">
+      <cite>Photo: <a target="_blank" href="https://butimalone12.pixnet.net/blog/post/460056525">失物招領</a></cite>
+</figure>
+
+<hr>
+<h4 id="參考網址"><a href="#參考網址" class="headerlink" title="參考網址"></a>參考網址</h4><ul>
+<li><a href="https://butimalone12.pixnet.net/blog/post/460056525">https://butimalone12.pixnet.net/blog/post/460056525</a></li>
+<li><a href="https://steachs.com/archives/48853">https://steachs.com/archives/48853</a></li>
+<li><a href="https://steachs.com/archives/29432">https://steachs.com/archives/29432</a></li>
+</ul>
+</body></html>]]></content>
+      <categories>
+        <category>科技宅少女</category>
+      </categories>
+      <tags>
+        <tag>懶人包</tag>
+        <tag>購物心得</tag>
+        <tag>3C</tag>
+        <tag>教學</tag>
       </tags>
   </entry>
   <entry>
@@ -448,23 +448,6 @@
       </tags>
   </entry>
   <entry>
-    <title>到中崙圖書館的低潮週日午後</title>
-    <url>/down-sunday.html</url>
-    <content><![CDATA[<html><head></head><body><p>為了逃離現在的低潮，預約的軟體測試的書到館了，週日的下午跑去領書順便逛逛圖書館，拿完預約書快速翻閱後發現內容實在有夠過時，並且太過理論，一點幫助都沒有，果斷的取完書，下樓後就丟回還書箱。找書的過程中，不斷給自己定下規則，限制自己只能借三本書，避免像之前一樣借回家一個月，但都沒有實際讀完。</p>
-<p>住在現在的租屋處快要一年了，臺北市立圖書館中崙分館就在租屋處的對面，三分鐘就可以走到，但我比自己想像的還要少去借書。<a id="more"></a>發現這一年看書的習慣改變了許多，五專十幾歲的時候才開始大量看書，那時候什麼書都看，看封面看標題稍微有興趣的書通通都會借來翻，度過了一個有點geek的青少年生活但又沒有因為這種習慣獲得/開竅geek那種在某個領域絕頂的能力。有點奇怪的是，因為那時候在家中找不到認同，而不斷的刻意找了很多心理學/心靈雞湯的相關書籍來讀，某種程度建立起多數時刻的自我安全與信任感。然後因為當時喝了太多，以至於現在都沒辦法再多喝一口心靈雞湯了哈哈哈哈，就像某個時期會熱烈的愛吃某一種食物，然後有一天突然這輩子再也不想再吃了，強烈吃夠了的心情。</p>
-<p>從農曆年後到現在，歷經了五個月左右，這幾週幾乎武漢肺癌的確診人數都是加零的情況下，實在有點疲乏，加上天氣逐漸悶熱起來，我常常忘記戴口罩出門。還好多數的公共場所都還是堅持著原本的做法，進入前要量體溫、實名登記（採用刷身分證或是借書證，科技的令我詫異，我以為會是手填個資…呵呵沒禮貌，我可是在台灣首都呢！）。中崙分館的主題是漫畫以及各國的外文書籍，我每次進去都會不自覺地對這間圖書館以及台北市建立起每間分館不同主題這件事情感很有趣，畢竟漫畫跟閱讀這件事情在台灣，特別是學生時期總是有一種違和感。當它被圖書館設定為特定主題時，我覺得這樣的衝突很幽默，總是好奇漫畫當初是如何被設定為一個主題館的其中一個項目。</p>
-<p>漫無目的的在書道間來回穿梭，上到三樓迎面而來的第一排書架是哲學分類，我忍不住在這條走道就用掉我的兩本扣打，其實哲學的書我一直沒有好好讀完，借了好多次好多本，但一直沒有通透。這次再借，我想我是想透過哲學，想清楚最近心底的鬱悶到底是怎麼一回事？眼看著剩下一本的額度了，我直奔文學區，打算把這個額度留給我的精神糧食——散文，在散文的書架前徘徊，看到 <code>我喜歡這個功利的世界</code> ，我拿起來，翻開扉頁，作者是一個我沒聽說過的中國知名微信公眾號作家，再翻開目錄，摁好，有打中我的幾篇標題，就是它了。</p>
-<p>回家前把剛借到手的預約書丟回還書箱，那剎那，我突然覺得很有快感，以前的我應該會鄉愿的覺得這本書耗費了很多成本才被送到這邊，我提前預約他的時間、不同圖書館為了處理我的預約之間的人事作業、實際的運送成本…等等，但我突然領悟如果我因為這樣把它帶回家，只會無端消耗更多，而我還是不會讀完它。這個快感應該源自於我覺得至少這一刻我想清楚我想要什麼，而這是我這陣子低潮的原因，對於人生的未來與掌控總覺得失去方向。明明幾個月前，在去年底那時，我充滿能量，對於一切都感到非常的滿足，怎麼幾個月後落入這種低潮？挑了哲學書，也是想想清楚這些吧？</p>
-<p>回到家，不怎麼讀書的先生從我帶回去的三本書中，直接排除他完全沒興趣的哲學書，讀起 <code>我喜歡這個功利的世界</code> 。讀到一半他突然大喊：『這本書，我們的主管應該要來讀！』哈哈哈哈哈，最近我們的生活中，每天都會提到主管，通常是在一些我們無法理解的角色出現的時候。失去方向的我，某部分知道像我這樣過於理想主義的想法是沒辦法在這個功利世界快樂生活的，希望我能盡快找到一些平衡，讓自己好過些。然後我想要每天都至少丟到一樣租屋處中，我不需要的物品。</p>
-</body></html>]]></content>
-      <categories>
-        <category>生活小事</category>
-      </categories>
-      <tags>
-        <tag>雜記</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2020 小琉球旅遊必去景點美食民宿推薦，三天兩夜不排行程輕鬆玩攻略</title>
     <url>/taiwan-liuqiu.html</url>
     <content><![CDATA[<html><head></head><body><p>2020/06/18~20 我跟逼羅到小琉球三天兩夜，接著再跑到台東玩了三天，想要做一個精簡版的紀錄，順便將有用的旅遊資訊整理分享給即將要去小琉球玩的人。</p>
@@ -536,6 +519,23 @@ var stg = new Object(); stg.crt="11014275205076";stg.version="1.05"; stg.id=stg.
       <tags>
         <tag>紀錄</tag>
         <tag>旅遊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>到中崙圖書館的低潮週日午後</title>
+    <url>/down-sunday.html</url>
+    <content><![CDATA[<html><head></head><body><p>為了逃離現在的低潮，預約的軟體測試的書到館了，週日的下午跑去領書順便逛逛圖書館，拿完預約書快速翻閱後發現內容實在有夠過時，並且太過理論，一點幫助都沒有，果斷的取完書，下樓後就丟回還書箱。找書的過程中，不斷給自己定下規則，限制自己只能借三本書，避免像之前一樣借回家一個月，但都沒有實際讀完。</p>
+<p>住在現在的租屋處快要一年了，臺北市立圖書館中崙分館就在租屋處的對面，三分鐘就可以走到，但我比自己想像的還要少去借書。<a id="more"></a>發現這一年看書的習慣改變了許多，五專十幾歲的時候才開始大量看書，那時候什麼書都看，看封面看標題稍微有興趣的書通通都會借來翻，度過了一個有點geek的青少年生活但又沒有因為這種習慣獲得/開竅geek那種在某個領域絕頂的能力。有點奇怪的是，因為那時候在家中找不到認同，而不斷的刻意找了很多心理學/心靈雞湯的相關書籍來讀，某種程度建立起多數時刻的自我安全與信任感。然後因為當時喝了太多，以至於現在都沒辦法再多喝一口心靈雞湯了哈哈哈哈，就像某個時期會熱烈的愛吃某一種食物，然後有一天突然這輩子再也不想再吃了，強烈吃夠了的心情。</p>
+<p>從農曆年後到現在，歷經了五個月左右，這幾週幾乎武漢肺癌的確診人數都是加零的情況下，實在有點疲乏，加上天氣逐漸悶熱起來，我常常忘記戴口罩出門。還好多數的公共場所都還是堅持著原本的做法，進入前要量體溫、實名登記（採用刷身分證或是借書證，科技的令我詫異，我以為會是手填個資…呵呵沒禮貌，我可是在台灣首都呢！）。中崙分館的主題是漫畫以及各國的外文書籍，我每次進去都會不自覺地對這間圖書館以及台北市建立起每間分館不同主題這件事情感很有趣，畢竟漫畫跟閱讀這件事情在台灣，特別是學生時期總是有一種違和感。當它被圖書館設定為特定主題時，我覺得這樣的衝突很幽默，總是好奇漫畫當初是如何被設定為一個主題館的其中一個項目。</p>
+<p>漫無目的的在書道間來回穿梭，上到三樓迎面而來的第一排書架是哲學分類，我忍不住在這條走道就用掉我的兩本扣打，其實哲學的書我一直沒有好好讀完，借了好多次好多本，但一直沒有通透。這次再借，我想我是想透過哲學，想清楚最近心底的鬱悶到底是怎麼一回事？眼看著剩下一本的額度了，我直奔文學區，打算把這個額度留給我的精神糧食——散文，在散文的書架前徘徊，看到 <code>我喜歡這個功利的世界</code> ，我拿起來，翻開扉頁，作者是一個我沒聽說過的中國知名微信公眾號作家，再翻開目錄，摁好，有打中我的幾篇標題，就是它了。</p>
+<p>回家前把剛借到手的預約書丟回還書箱，那剎那，我突然覺得很有快感，以前的我應該會鄉愿的覺得這本書耗費了很多成本才被送到這邊，我提前預約他的時間、不同圖書館為了處理我的預約之間的人事作業、實際的運送成本…等等，但我突然領悟如果我因為這樣把它帶回家，只會無端消耗更多，而我還是不會讀完它。這個快感應該源自於我覺得至少這一刻我想清楚我想要什麼，而這是我這陣子低潮的原因，對於人生的未來與掌控總覺得失去方向。明明幾個月前，在去年底那時，我充滿能量，對於一切都感到非常的滿足，怎麼幾個月後落入這種低潮？挑了哲學書，也是想想清楚這些吧？</p>
+<p>回到家，不怎麼讀書的先生從我帶回去的三本書中，直接排除他完全沒興趣的哲學書，讀起 <code>我喜歡這個功利的世界</code> 。讀到一半他突然大喊：『這本書，我們的主管應該要來讀！』哈哈哈哈哈，最近我們的生活中，每天都會提到主管，通常是在一些我們無法理解的角色出現的時候。失去方向的我，某部分知道像我這樣過於理想主義的想法是沒辦法在這個功利世界快樂生活的，希望我能盡快找到一些平衡，讓自己好過些。然後我想要每天都至少丟到一樣租屋處中，我不需要的物品。</p>
+</body></html>]]></content>
+      <categories>
+        <category>生活小事</category>
+      </categories>
+      <tags>
+        <tag>雜記</tag>
       </tags>
   </entry>
   <entry>
